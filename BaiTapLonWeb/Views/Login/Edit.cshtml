@@ -1,0 +1,197 @@
+﻿@model BaiTapLonWeb.Models.User
+
+
+    @Html.Partial("_Header_after_login")
+
+
+<body>
+
+
+
+
+
+
+    <div id="wp-content" class="bg-white">
+        <div class="my-profile auto">
+
+            <div class="heading-my-profile">
+                <h1>Hồ Sơ Của Tôi</h1>
+                <h2>Quản lý thông tin hồ sơ để bảo mật tài khoản</h2>
+            </div>
+            @using (Html.BeginForm(Html.BeginForm("Edit", "Login", FormMethod.Post, new { enctype = "multipart/form-data" })))
+            {
+                <div class="main-my-profile d-fl">
+
+                    <div class="main-form-profile flex-7">
+
+
+                        @Html.AntiForgeryToken()
+                        <table width="100%">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            @Html.HiddenFor(model => model.UserID)
+
+                            <tr>
+
+                                <td class="left-main-my-profile">
+                                    Email
+                                </td>
+                                <td class="right-main-my-profile asc d-fl">
+                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-in-big" } })
+                                    <p class="validation-message">
+                                        <!-- Thêm lớp CSS tùy chỉnh -->
+                                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                    </p>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="left-main-my-profile">
+                                    Tên Người Dùng
+                                </td>
+                                <td>
+                                    <div class="right-main-my-profile">
+                                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-in-big" } })
+                                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                                    </div>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="left-main-my-profile">
+                                    Password
+                                </td>
+                                <td class="">
+                                    <div class="right-main-my-profile asc d-fl">
+
+                                        @Html.EditorFor(model => model.PassWord, new { htmlAttributes = new { @class = "form-in-big", type = "password" } })
+                                        @Html.ValidationMessageFor(model => model.PassWord, "", new { @class = "text-danger" })
+
+
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td class="left-main-my-profile">
+                                    Số điện thoại
+
+                                </td>
+                                <td class="">
+                                    <div class="right-main-my-profile asc d-fl">
+
+                                        @Html.EditorFor(model => model.PhoneNumber, new { htmlAttributes = new { @class = "form-in-big" } })
+                                        @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "text-danger" })
+
+
+                                    </div>
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td class="left-main-my-profile">Địa Chỉ</td>
+                                <td>
+                                    <div class="right-main-my-profile">
+                                        @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-in-big" } })
+                                        @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+                                    </div>
+
+                                </td>
+                            </tr>
+
+
+                        </table>
+
+
+                        <div class="btn-update-profile mb-3">
+                            <input type="submit" value="Lưu" class="btn-update" />
+                            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+                            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+
+                            @if (TempData["SuccessMessage"] != null)
+                            {
+                                <script>
+                                    // Sử dụng SweetAlert2 để hiển thị MessageBox
+                                    Swal.fire({
+                                        icon: 'success',
+                                        title: 'Thành công!',
+                                        text: 'Bạn đã thay đổi thông tin thành công',
+                                        showConfirmButton: false
+                                    });
+                                    setTimeout(function () {
+                                        window.location.href = '/Trang-Chu';
+                                    }, 2000);
+                                </script>
+                            }
+                            @if (TempData["FailMessage"] != null)
+                            {
+                                <script>
+                                    // Sử dụng SweetAlert2 để hiển thị MessageBox
+                                    Swal.fire({
+                                        icon: 'warning',
+                                        title: 'Thất Bại!',
+                                        text: 'Bạn đã thay đổi thông tin thất bại',
+                                        timer: 5000, // 5 giây
+                                        showConfirmButton: false
+                                    });
+                                </script>
+                            }
+                        </div>
+
+                       
+
+
+
+
+
+
+
+                    </div>
+                    <div class="avatar-my-profile flex-3">
+                        @Html.TextBoxFor(model => model.ImageUser, null, new { type = "file", @class = "form-control", onchange = "previewFile()" })
+                        <br />
+                        <br />
+                        <img id="previewImage" src="~/public/images/@Model.ImageUser" height="300px" width="300px"@if (string.IsNullOrEmpty(Model.ImageUser)) { <text>style="display: none"</text> } />
+                        @Html.Hidden("oldimage", @Model.ImageUser)
+                        @Html.ValidationMessageFor(model => model.ImageUser, "", new { @class = "text-danger" })
+                    </div>
+                    <script>
+                        function previewFile() {
+                            var preview = document.getElementById('previewImage');
+                            var file = document.querySelector('input[type=file]').files[0];
+                            var reader = new FileReader();
+
+                            reader.onloadend = function () {
+                                preview.src = reader.result;
+                                preview.style.display = 'block'; // Hiển thị ảnh
+                            }
+
+                            if (file) {
+                                reader.readAsDataURL(file);
+                            } else {
+                                preview.src = '';
+                                preview.style.display = 'none'; // Ẩn ảnh nếu không có file được chọn
+                            }
+                        }
+                    </script>
+
+
+                </div>
+            }
+        </div>
+        <div>
+           
+            
+        </div>
+    </div>
+
+
+
+
+
+
+
+        
+        @Html.Partial("_Footer_not_every_thing")
+</body>
+

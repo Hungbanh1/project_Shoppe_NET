@@ -1,0 +1,81 @@
+﻿<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<div id="sidebar" class="bg-white">
+    <ul id="sidebar-menu">
+        <li class="nav-link">
+
+            <a href="@Url.Action("Dashboard","AdminOrder")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fas fa-home"></i>
+                </div>
+                Dashboard
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+        </li>
+        <li class="nav-link">
+
+            <a href="@Url.Action("Statics","AdminOrder")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fa-solid fa-chart-column"></i>
+                </div>
+                Thống kê
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+        </li>
+        <li class="nav-link">
+
+            <a href="@Url.Action("Report","AdminOrder")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fa-regular fa-file-excel"></i>
+                </div>
+                Báo cáo
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+        </li>
+
+        <li class="nav-link">
+
+            <a href="@Url.Action("Index","AdminProduct")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fas fa-box"></i>
+                </div>
+                Sản phẩm
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+            <ul class="sub-menu">
+                <li><a href="@Url.Action("Create","AdminProduct")">Thêm mới</a></li>
+                <li><a href="@Url.Action("Index","AdminProduct")">Danh sách</a></li>
+
+            </ul>
+        </li>
+        <li class="nav-link">
+            <a href="@Url.Action("Index","AdminOrder")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fas fa-cash-register"></i>
+                </div>
+                Bán hàng
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+            <ul class="sub-menu">
+                <li><a href="@Url.Action("Index","AdminOrder")">Đơn hàng</a></li>
+            </ul>
+        </li>
+        <li class="nav-link">
+            <a href="@Url.Action("Index","AdminUser")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                Users
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+
+            <ul class="sub-menu">
+                <li><a href="@Url.Action("Create","AdminUser")">Thêm mới</a></li>
+                <li><a href="@Url.Action("Index","AdminUser")">Danh sách</a></li>
+            </ul>
+        </li>
+
+
+
+    </ul>
+</div>

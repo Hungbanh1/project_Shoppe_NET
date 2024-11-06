@@ -1,0 +1,80 @@
+﻿@model BaiTapLonWeb.Models.Product
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+
+        <div id="content" class="container-fluid">
+            <div class="card">
+                <div class="card-header font-weight-bold">
+                    Chi Tiết Sản Phẩm
+                </div>
+                <div class="card-body">
+                    <form action="">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="product_name">
+                                        @Html.LabelFor(model => model.ProductName, "Tên Sản Phẩm : ")
+                                    </label>
+
+                                    @Html.DisplayFor(model => model.ProductName)
+                                </div>
+                                @{
+                                    double price = Convert.ToDouble(@Model.ProductPrice);
+
+
+                                    <div class="form-group">
+                                        <label for="price">@Html.LabelFor(model => model.ProductPrice, "Giá : ")</label>
+                                        @price.ToString("#,##0").Replace(',', '.') VNĐ
+                                    </div>
+                                }
+                                <div class="form-group">
+                                    <label for="product_thumb">
+                                        @Html.LabelFor(model => model.ProductImage, "Ảnh Sản Phẩm : ")
+                                    </label>
+                                    <img src="~/public/images/@Model.ProductImage" style="width:200px; height:200px" />
+
+                                </div>
+                            </div>
+                            <div class="col-6"  >
+                                <div class="form-group">
+                                    <label for="intro">
+                                        @Html.LabelFor(model => model.ProductDescription, "Mô Tả Sản Phẩm : ")
+                                    </label>
+                                    <div class="scrollable-element">
+                                        @Html.DisplayFor(model => model.ProductDescription)
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <style>
+                            .scrollable-element {
+                                max-height: 200px; /* Định chiều cao tối đa cho phần tử */
+                                overflow-y: auto; /* Hiển thị thanh cuộn dọc khi nội dung vượt quá kích thước */
+                            }
+                        </style>
+
+                       
+
+
+                        <div class="form-group">
+                            <label for="cat_title">@Html.LabelFor(model => model.CategoryID, "Danh Mục : ")</label>
+                            @Html.DisplayFor(model => model.Category.CategoryName)
+                        </div>
+
+
+                    </form>
+                </div>
+
+                <p>
+                    @Html.ActionLink("Edit", "Edit", new { id = Model.ProductID }) |
+                    @Html.ActionLink("Back to List", "Index")
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+

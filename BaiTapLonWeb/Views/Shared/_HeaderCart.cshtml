@@ -1,0 +1,151 @@
+﻿
+@{
+    ViewBag.Title = "_HeaderCart";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/public/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="~/public/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+          href="~/public/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/public/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="~/public/font/fontawesome.min.css">
+    <script src="~/public/js/jquery-3.6.0.min.js"></script>
+    <script src="~/public/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/public/js/hover.js"></script>
+    <link rel="stylesheet" href="~/public/css/cart.css">
+
+    <link rel="stylesheet"
+          href="~/public/font/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/public/css/style.css">
+    <link rel="stylesheet" href="~/public/css/category.css">
+    <link rel="stylesheet" href="~/public/css/style-1.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+          rel="stylesheet">
+</head>
+<div id="header">
+    <div id="wp-header">
+        <div class="wp-inner">
+            <div id="header-info" class="d-fl js-content-bt pt-8">
+                <div class="header-right d-fl">
+                    <div class="channel-shoppe">
+                        <a href="">Kênh người bán</a> <span class="mr-header">|</span>
+                    </div>
+                    <div class="becomse-seller-shoppe">
+                        <a href="">Trở thành Người bán Shopee</a>
+                        <span class="mr-header">|</span>
+                    </div>
+                    <div class="download-app">
+                        <a href="">Tải ứng dụng</a> <span class="mr-header">|</span>
+
+                    </div>
+                    <div class="connect-shoppe d-fl">
+                        <a href="">Kết nối</a>
+                        <div class="icon-connect d-fl">
+                            <a href="">
+                                <i class="fa-brands fa-facebook
+                                                white"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands
+                                                fa-square-instagram
+                                                white"></i>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="header-left d-fl">
+                    <div class="noti-shoppe">
+                        <i class="fa-regular fa-bell" style="color:
+                                        #ffffff;"></i>
+                        <a href="">Thông báo</a> <span class="mr-header"></span>
+                    </div>
+                    <div class="support-shoppe">
+                        <i class="fa-regular fa-circle-question"
+                           style="color: #ffffff;"></i>
+                        <a href="">Hỗ trợ</a> <span class="mr-header"></span>
+
+                    </div>
+                    <div class="language-shoppe">
+                        <i class="fa-solid fa-globe" style="color:
+                                        #ffffff;"></i>
+                        <a href="">Tiếng việt</a> <span class="mr-header"></span>
+
+                    </div>
+                    <div class="support-shoppe">
+                        @Html.ActionLink("Đăng ký", "Register", "Login")<span class="mr-header"></span>
+
+
+                    </div>
+                    <div class="support-shoppe">
+                        @Html.ActionLink("Đăng nhập", "Index", "Login")<span class="mr-header"></span>
+
+
+                    </div>
+                   
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="wp-header-bot" class="bg-white">
+        <div id="header-cart" class="auto d-fl js-content-bt">
+            <div class="logo-cart">
+
+                <a href=" @Url.Action("Index","Products")" class="logo">
+                    <img class="shoppe-svg-icon-cart" src="~/public/svg/logo-cart.svg" alt="">
+
+
+                </a>
+                <div class="cart-h1">Giỏ hàng</div>
+            </div>
+            <div class="search-cart">
+                @using (Html.BeginForm("Search", "Products", FormMethod.Get))
+                {
+                    <form action="" class="form-search-cart">
+                       
+                        @Html.TextBox("searchTerm", null, new { @class = "form-search-cart", placeholder = "Mã Freeship Đến 25.000Đ" })
+                        <button class="search-button-cart
+                                  " type="submit">
+                            <i class="fa-solid
+                                        fa-magnifying-glass "></i>
+                        </button>
+                    </form>
+                }
+                </div>
+               
+                  
+
+
+                        
+
+                       
+
+                   
+               
+            </div>
+        </div>
+    </div>
+
+</div>
+

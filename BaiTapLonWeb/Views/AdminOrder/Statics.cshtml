@@ -1,0 +1,193 @@
+﻿@model IEnumerable<BaiTapLonWeb.Models.Order>
+@using Newtonsoft.Json
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="row">
+
+                <div class="col">
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG XỬ LÝ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Ðang xử lý")</h5>
+                            <p class="card-text">Số lượng đơn hàng đang xử lý</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG VẬN CHUYỂN</div>
+                        <div class="card-body">
+                            <h5 class="card-title" name="Đang vận chuyển">@Model.Count(o => o.OrderStatu.StatusName == "Ðang vận chuyển")</h5>
+                            <p class="card-text">Số đơn đang vận chuyển trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+
+                @{
+                    int number = 10;
+                    Console.WriteLine("The value of number is: " + number);
+                }
+                @{ int STT = 0;
+                    double totalmoney = 0;}
+                @foreach (var item in Model)
+                {
+
+
+                    double total1 = Convert.ToDouble(@item.TotalMoney);
+                    if (HttpContext.Current.Request.QueryString["status"] != "cancelled" && item.OrderStatu.StatusName != "Đã Hủy")
+                    {
+                        totalmoney = totalmoney + total1;
+                    }
+
+                }
+                <div class="col">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header">DOANH SỐ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@totalmoney.ToString("#,##0").Replace(',', '.') VNĐ</h5>
+                            <p class="card-text">Doanh số hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG THÀNH CÔNG</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Thành công")</h5>
+                            <p class="card-text">Đơn hàng giao dịch thành công</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG HỦY</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Hủy đơn")</h5>
+                            <p class="card-text">Số đơn bị hủy trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0 ">Thống kê</h5>
+                  
+                </div>
+                <div class="card-body">
+
+                    <canvas class="" style="background-color: #fff"
+                            id="myChart"></canvas>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const MONTHS = [
+            "Tháng 1",
+            "Tháng 2",
+            "Tháng 3",
+            "Tháng 4",
+            "Tháng 5",
+            "Tháng 6",
+            "Tháng 7",
+            "Tháng 8",
+            "Tháng 9",
+            "Tháng 10",
+            "Tháng 11",
+            "Tháng 12"
+        ];
+
+        // Function to create chart for orders by month
+        function createOrdersChart(ordersByMonth, orderCounts, label) {
+            const data1 = {
+                labels: MONTHS,
+                datasets: [
+                    {
+                        label: label,
+                        data: orderCounts,
+                        backgroundColor: [
+                            "rgba(255, 99, 132, 0.2)",
+                            "rgba(255, 159, 64, 0.2)",
+                            "rgba(255, 205, 86, 0.2)",
+                            "rgba(75, 192, 192, 0.2)",
+                            "rgba(54, 162, 235, 0.2)",
+                            "rgba(153, 102, 255, 0.2)",
+                            "rgba(201, 203, 207, 0.2)",
+                            "rgba(255, 99, 132, 0.2)",
+                            "rgba(255, 159, 64, 0.2)",
+                            "rgba(255, 205, 86, 0.2)",
+                            "rgba(75, 192, 192, 0.2)",
+                            "rgba(54, 162, 235, 0.2)",
+                        ],
+                        borderColor: [
+                            "rgb(255, 99, 132)",
+                            "rgb(255, 159, 64)",
+                            "rgb(255, 205, 86)",
+                            "rgb(75, 192, 192)",
+                            "rgb(54, 162, 235)",
+                            "rgb(153, 102, 255)",
+                            "rgb(201, 203, 207)",
+                            "rgb(255, 99, 132)",
+                            "rgb(255, 159, 64)",
+                            "rgb(255, 205, 86)",
+                            "rgb(75, 192, 192)",
+                            "rgb(54, 162, 235)",
+                        ],
+                        borderWidth: 1,
+                    },
+                ],
+            };
+
+            const config1 = {
+                type: "bar",
+                data: data1,
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                        },
+                    },
+                },
+            };
+
+            var ctx = document.getElementById("myChart").getContext("2d");
+            var myChart = new Chart(ctx, config1);
+        }
+
+
+        // Function to create chart for daily status
+
+    </script>
+
+    @{
+        var ordersByMonthJson = JsonConvert.SerializeObject(@ViewBag.ordersByMonth);
+    }
+    <script>
+
+        const ordersByMonth = @Html.Raw(ordersByMonthJson);
+        console.log(ordersByMonth);
+        const orderCounts = new Array(12).fill(0);
+        console.log(orderCounts);
+        const label = "Thống kê lượng đơn đã tạo";
+        const labels = ["Đã hủy", "Đã giao thành công", "Đã tạo đơn"];
+
+        ordersByMonth.forEach(item => {
+            const monthIndex = parseInt(item.Month) - 1;
+            console.log(monthIndex);
+            orderCounts[monthIndex] = item.OrderCount;
+            console.log(orderCounts[monthIndex]);
+        });
+
+
+        createOrdersChart(ordersByMonth, orderCounts, label);
+
+
+    </script>
+
+</body>
+

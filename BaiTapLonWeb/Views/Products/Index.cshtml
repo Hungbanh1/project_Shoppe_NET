@@ -1,0 +1,418 @@
+﻿@using BaiTapLonWeb.Models;
+@*@using BaiTapLonWeb.Models.User;*@
+@*@model IEnumerable<BaiTapLonWeb.Models.User>*@
+@*@model User*@
+<body>
+    <div id="wrapper">
+        <!-- // Header  -->
+        @if (string.IsNullOrEmpty(Session["Email"]?.ToString()))
+        {
+            @Html.Partial("_Header")
+        }
+        else
+        {
+
+            @Html.Partial("_Header_after_login")
+        }
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        @model HomeModel
+        @{
+            ViewBag.Title = "Index";
+
+        }
+        @if (TempData["ShowAlert"] != null && (bool)TempData["ShowAlert"])
+        {
+
+            {
+                <script>
+        Swal.fire({
+            title: 'Thông báo quan trọng',
+            text: @Html.Raw(Json.Encode(TempData["Message"])), // Sử dụng Json.Encode để tránh mã hóa
+            icon: 'warning',
+            confirmButtonText: 'Xác nhận',
+            confirmButtonColor: '#3085d6',
+            allowOutsideClick: false
+        });
+                </script>
+            }
+        }
+        @*else
+        {
+            <h1>Nothing</h1>
+
+        }*@
+        @*@foreach (var item in Model.UserById)
+        {
+            <h1>day la : @item.UserName </h1>
+            <h1>day la : @item.PhoneNumber</h1>
+
+        }*@
+        <p>Tên người dùng:@Model.UserById.UserName</p>
+        <p>Dia chi:@Model.UserById.Address</p>
+        <div id="wp-content">
+            <h1>day la : @TempData["Address"] </h1>
+            <h1>@Session["Address"]</h1>
+            <h1>@Session["PhoneNumber"]</h1>
+            <h1>ĐAy la role :  @Session["Role"]</h1>
+            <!-- Banner  -->
+            <div id="full-banner">
+                <div id="banner">
+                    <div class="wp-slider">
+                        <div class="slider">
+                            <img src="../public/images/banner-sp-f.jpg" alt=""
+                                 width="900px" height="240px"
+                                 class="banner-1">
+                        </div>
+                        <div class="slider-r">
+                            <div class="slider-top">
+                                <img src="../public/images/banner-sp-f1.jpg"
+                                     alt="" width="410px" height="115px"
+                                     class="banner-1">
+                            </div>
+                            <div class="slider-bot">
+                                <img src="../public/images/banner-sp-f2.jpg"
+                                     alt="" width="410px" height="115px"
+                                     class="banner-1">
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <!-- // Support  -->
+                <div id="support">
+                    <div class="section-detail">
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp1.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Khung Giờ Săn Sale</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp2.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Gì Cũng Rẻ - Mua Là Freeship</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp3.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Mã Giảm Giá</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp4.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Miễn Phí Vận Chuyển</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp5.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Voucher Giảm Đến 200.000Đ</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp6.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Hàng Hiệu Giá Tốt</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp7.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Bắt Trend - Giá Sốc</p>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp8.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Hàng Quốc Tế</p>
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img pb-2 src="../../public/images/sp9.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Nạp Điện Thoại</p>
+
+
+                                </div>
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="thumb">
+                                <div class="img pb-2">
+                                    <img src="../../public/images/sp10.png"
+                                         width="45px" height="45px" alt="">
+                                </div>
+                                <div class="text">
+                                    <p>Chọn Số Trúng iPhone 14</p>
+
+
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- // Category  -->
+            <div class="category">
+                <div class="list-category">
+                    <div class="heading-cate">
+                        <h1>Danh mục</h1>
+                    </div>
+                    <div class="wp-cate">
+                        <ul class="ul-suggest">
+                            @foreach (var item in Model.CategoriesView)
+                            {
+                                <li>
+                                    <a href="/Danh-Muc/@item.CategoryID">
+                                        <div class="cate">
+                                            <div class="img-cate">
+                                                <img src="~/public/images/@item.CategoryImage" width="83px" height="88px" />
+                                            </div>
+                                            <div class="title-cate">
+                                                <p> @item.CategoryName</p>
+                                            </div>
+                                        </div>
+
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- // FLash Sale  -->
+
+            <div id="flash-sale">
+                <div class="list-flash-sale">
+                    <div class="d12-12">
+                        <img src="../public/images/1212.png" class="pdl-34"
+                             alt="">
+                    </div>
+                    <div class="banner-flash-sale">
+                        <img src="../public/images/flashsale.png" alt="">
+                    </div>
+                    <div class="heading-flash-sale">
+                        <h1 class="h1-flash-sale">Ngày hội ưu đãi</h1>
+                    </div>
+                    <div class="owl-carousel owl-theme wp-flash-sale">
+
+                        @foreach (var item in Model.ProductsView)
+                        {
+                            if (item.CategoryID == 1)
+                            {
+                                <div class="product-sale">
+                                    <a href="/Chi-Tiet-San-Pham/@item.ProductID">
+                                        <div class="img-product-sale">
+                                            <img src="~/public/images/@item.ProductImage" width="300px" height="375px" />
+                                        </div>
+                                        <div class="content-product">
+                                            <div class="product-name">
+                                                <p style="color:black"> @item.ProductName</p>
+
+                                            </div>
+                                            @{
+                                                double price = Convert.ToDouble(@item.ProductPrice);
+                                                <div class="price">
+                                                    <span>@price.ToString("#,##0").Replace(',', '.') VNĐ </span>
+                                                </div>
+                                            }
+                                        </div>
+                                    </a>
+
+                                    <div class="buy">
+                                        <a href="/ShopeeCart/AddToCart/@item.ProductID">
+                                            Mua Ngay
+                                        </a>
+                                    </div>
+                                </div>
+                            }
+
+
+                        }
+
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- // Suggestion  -->
+
+
+
+            <script>
+
+            </script>
+            <div id="suggest">
+                <div class="list-suggest">
+                    <div class="d12-12-product-suggest">
+                        <img src="../public/images/1212.png" class="mr-105"
+                             alt="">
+                    </div>
+
+                    <div class="heading-suggest">
+                        <h1 class="h1-heading-suggest">Gợi ý hôm nay</h1>
+                    </div>
+
+                    <div class="wp-suggest">
+                        <ul class="ul-suggest">
+
+                            @{
+                                int count = 0;
+                                foreach (var item in Model.ProductsView)
+                                {
+                                    if (item.CategoryID == 1)
+                                    {
+                                        if (count < 18)
+                                        {
+                                            /*Lặp qua sản phẩm và thực hiện các hành động mong muốn*/
+                                            <li class="suggest-li">
+                                                <a href="/Chi-Tiet-San-Pham/@item.ProductID">
+                                                    <div class="product-suggest">
+
+                                                        <div class="img-suggest-product">
+                                                            <img src="~/public/images/@item.ProductImage" width="205px" height="207px" />
+                                                        </div>
+                                                        <div class="content-suggest-product item">
+                                                            <div class="name-suggest-product">
+                                                                <span>
+                                                                    @Html.DisplayFor(modelItem => item.ProductName)
+                                                                </span>
+                                                            </div>
+                                                            <div class="footer-suggest-product">
+                                                                @{
+                                                                    double price = Convert.ToDouble(@item.ProductPrice);
+                                                                    <div class="price-suggest">
+
+
+
+                                                                        <span>@price.ToString("#,##0").Replace(',', '.') VNĐ </span>
+
+
+
+                                                                    </div>
+                                                                }
+                                                                <div class="sold">
+                                                                    <span>Đã bán : 474</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="buy-now dp-none">
+                                                            <a href="/ShopeeCart/AddToCart/@item.ProductID">
+                                                                <p class="">Mua ngay</p>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </li>
+
+                                            count++;
+                                        }
+                                        else
+                                        {
+                                            // Đã lặp qua đủ 18 sản phẩm, có thể thoát khỏi vòng lặp hoặc thực hiện hành động khác
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                        </ul>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="hr-footer-red"> </div>
+        @Html.Partial("_Footer")
+    </div>
+
+
+</body>
+
+</html>
+<script class="text/javascript">
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+            dots: false,
+            responsive: {
+                0: {
+                    items: 2
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        })
+
+
+
+    });
+</script>
+

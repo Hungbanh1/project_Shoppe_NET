@@ -1,0 +1,148 @@
+﻿@model List<BaiTapLonWeb.Models.OrderDetail>
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="card">
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Chi tiết đơn hàng</h5>
+                </div>
+
+                <table class="table_order" style="margin: 15px 0 15px 5%">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="">Mã đơn hàng:</p>
+                            </td>
+                            <td>
+                                <p><strong>@Model[0].OrderID</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="">Địa chỉ:</p>
+                            </td>
+                            <td>
+                                <p> <strong>@Model[0].Order.User.Address</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="">Số điện thoại:</p>
+                            </td>
+                            <td>
+                                <p> <strong>@Model[0].Order.User.PhoneNumber</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="">Email:</p>
+                            </td>
+                            <td>
+                                <p> <strong>@Model[0].Order.User.Email</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <p class="">Thông tin vận chuyển:</p>
+                            </td>
+                            <td>
+                                <p><strong>Thanh toán online</strong></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="format_order card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Trạng thái đơn hàng</h5>
+                </div>
+
+                @using (Html.BeginForm("UpdateStatus", "AdminOrder", FormMethod.Post))
+                {
+                    <div class="form_order form-action form-inline pb-5">
+                        @Html.DropDownList("statusId", null, htmlAttributes: new { @class = "form-control mr-1" })
+                        @Html.ValidationMessageFor(model => model[0].Order.StatusID, "", new { @class = "text-danger" })
+                        <input type="hidden" name="orderId" value="@Model[0].OrderID" />
+                        <input type="submit" name="btn-search" value="Cập nhật" class="btn btn-primary">
+                    </div>
+                }
+
+                <div class="product_order card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">SẢN PHẨM</h5>
+                </div>
+                <table class="table table-striped table-checkall">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Ảnh</th>
+                            <th scope="col">Tên sản phẩm</th>
+                            <th scope="col">Danh mục</th>
+                            <th scope="col" class="price">Giá</th>
+                            <th scope="col">Số lượng</th>
+                            <th scope="col">Tổng tiền</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            
+                                double price = Convert.ToDouble(@item.Price);
+
+                                double total1 = Convert.ToDouble(@item.Price * @item.Amount);
+                               
+                            
+                            <tr class="">
+                                <td>1</td>
+                                <td><img src="~/public/images/@item.Product.ProductImage" width="80px" height="80px" alt=""></td>
+                                <td><a href="#">@item.Product.ProductName</a></td>
+                                <td>@item.Product.Category.CategoryName</td>
+
+                                <td>@price.ToString("#,##0").Replace(',', '.') VNĐ</td>
+
+                                <td class="qty"><strong>@item.Amount</strong></td>
+                                <td>@total1.ToString("#,##0").Replace(',', '.') VNĐ</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+                <div class="total_order card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0">Tổng đơn hàng</h5>
+                </div>
+                <div class="footer_order">
+                    <div class="qty">
+                        @{ 
+                            double totalAmount = 0;
+                        }
+                        @foreach (var item in Model)
+                        {
+                            double amount = Convert.ToDouble(@Model[0].Amount);
+                            totalAmount = totalAmount + amount ;
+                        }
+                            <p>Tổng số lượng: <span>@totalAmount</span></p>
+                        
+                        </div>
+
+                    @{
+
+                        double total = Convert.ToDouble(@Model[0].Order.TotalMoney);
+                    }
+                    <div class="total">
+                        <p class="">Tổng cộng: <span>@total.ToString("#,##0").Replace(',', '.') VNĐ</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

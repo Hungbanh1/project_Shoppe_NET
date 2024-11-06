@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="3f52491e386441799cbc324a396f19a8" Name="Diagram1">
+        <EntityTypeShape EntityType="ShopeeModel.Category" Width="1.5" PointX="0.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.OrderDetail" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.Order" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.OrderStatu" Width="1.5" PointX="0.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.Product" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.User" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ShopeeModel.Voucher" Width="1.5" PointX="0.75" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="ShopeeModel.FK__Products__Catego__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopeeModel.FK__OrderDeta__Order__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopeeModel.FK__OrderDeta__Produ__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopeeModel.FK__Orders__StatusID__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopeeModel.FK__Orders__UserID__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="ShopeeModel.FK__Orders__VoucherI__300424B4" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="ShopeeModel.Category1" Width="1.5" PointX="3.375" PointY="6.375" />
+        <EntityTypeShape EntityType="ShopeeModel.Course" Width="1.5" PointX="5.625" PointY="6" />
+        <AssociationConnector Association="ShopeeModel.FK__Course__CatID__5EBF139D" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

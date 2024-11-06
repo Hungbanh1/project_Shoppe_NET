@@ -1,0 +1,93 @@
+﻿@model BaiTapLonWeb.Models.Product
+
+
+<body>
+
+    
+        @Html.Partial("_HeaderAdmin")
+     
+
+        <div id="wp-content">
+
+
+            <div id="content" class="container-fluid">
+                <div class="card">
+                    <div class="card-header font-weight-bold">
+                        THÊM SẢN PHẨM
+                    </div>
+                    @using (Html.BeginForm("Create", "AdminProduct", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+                        <div class="card-body">
+
+
+                            <div class="row">
+                                <div class="col-6">
+                                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                    <div class="form-group">
+                                        <label for="product_name">
+                                            @Html.LabelFor(model => model.ProductName, "Tên Sản Phẩm")
+                                        </label>
+
+                                        @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="price">@Html.LabelFor(model => model.ProductPrice, "Giá")</label>
+                                        @Html.EditorFor(model => model.ProductPrice, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(model => model.ProductPrice, "", new { @class = "text-danger" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="product_thumb">
+                                            @Html.LabelFor(model => model.ProductImage, "Ảnh Sản Phẩm")
+                                        </label>
+
+                                        @Html.TextBoxFor(model => model.ProductImage, null, new { type = "file", @class = "product_thumb form-control-file" })
+                                        @Html.ValidationMessageFor(model => model.ProductImage, "", new { @class = "text-danger" })
+
+
+
+
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="intro">
+                                            @Html.LabelFor(model => model.ProductDescription, "Mô Tả Sản Phẩm")
+                                        </label>
+                                        @Html.TextAreaFor(model => model.ProductDescription, new { @class = "form-control", id = "product_desc", cols = "30", rows = "8" })
+                                        @Html.ValidationMessageFor(model => model.ProductDescription, "", new { @class = "text-danger" })
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="intro">Chi tiết sản phẩm</label>
+                                <textarea name="product_content"
+                                          id="product_content"
+                                          class="form-control" id="intro"
+                                          cols="30"
+                                          rows="5"></textarea>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="cat_title"> @Html.LabelFor(model => model.CategoryID, "Danh Mục")</label>
+
+                                @Html.DropDownList("CategoryID", null, htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Create" class="btn btn-primary" />
+                            </div>
+
+                        </div>
+                    }
+                    </div>
+            </div>
+        </div>
+    
+</body>
+

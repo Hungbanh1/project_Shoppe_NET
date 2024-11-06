@@ -1,0 +1,420 @@
+/* // Product ================ */
+
+.main-content {
+    width: 1320px;
+    margin: 0px auto;
+    background-color: #fff;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.heading-product {
+    font-size: 1.25rem;
+    padding: 10px 0px;
+}
+
+.num-49 {
+    /* color: #d0011b; */
+    border-bottom: 1px solid #d0011b;
+}
+
+.num-57 {
+    border-bottom: 1px solid black;
+}
+
+.rating-product {
+    display: flex;
+}
+
+.rating-49 {
+    color: #d0011b;
+    border-right: 2px solid rgba(0, 0, 0, .14);
+    ;
+    padding-right: 10px;
+}
+
+.feedback-product {
+    border-right: 2px solid rgba(0, 0, 0, .14);
+    ;
+}
+
+.main-feedback {
+    padding: 0px 10px;
+}
+
+.main-sold-product {
+    padding-left: 10px;
+}
+
+.clearfix {
+    clear: both;
+    display: block;
+}
+
+.list-item {
+    display: inline-flex;
+    padding: 10px 0px
+}
+
+.list-item li a {
+    position: relative;
+    padding-left: 20px;
+    display: block;
+    color: #333;
+    line-height: normal;
+}
+
+.list-item li:first-child a:before {
+    content: '\f015';
+    font-family: 'Font Awesome 5 Free';
+    line-height: normal;
+    font-weight: 900;
+}
+
+.list-item li:nth-child(n+2) a:before {
+    position: absolute;
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    top: 3px;
+    left: 7px;
+    line-height: normal;
+    font-weight: 900;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+#wp-content-product {
+    width: 1320px;
+    margin: 0px auto;
+    padding-bottom: 6%;
+}
+
+
+/* // /////////////////////////////////////Product -main  */
+
+.main-price-product {
+    width: 665px;
+    height: 121px;
+    background-color: #f5f5f5;
+    margin-top: 14px;
+}
+
+.main-price-product .price-product span {
+    font-size: 1.875rem;
+}
+
+.price-product {
+    display: flex;
+    padding: 15px 20px;
+}
+
+.sale-product {
+    margin-left: 15px;
+    font-size: .75rem;
+    color: #fff;
+    text-transform: uppercase;
+    background: #ee4d2d;
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-weight: 600;
+    line-height: 1;
+    white-space: nowrap;
+    height: 16px;
+    margin-top: 8px;
+}
+
+.old-price-product {
+    font-size: 1rem !important;
+    text-decoration: line-through;
+    color: #929292;
+    margin-right: 10px;
+    margin-top: 9px;
+}
+
+.new-price-product {
+    color: #d0011b;
+}
+
+.gi-cung-re {
+    padding-left: 20px;
+}
+
+.gi-cung-re span {
+    color: #d0011b;
+    /* color: none; */
+}
+
+.gia-tot-nhat {
+    color: rgba(0, 0, 0, .54);
+    font-size: .75rem;
+    margin-top: 0.25rem;
+    padding-left: 21px;
+}
+
+
+/* // van chuyen  */
+
+.main-menu-transport {
+    line-height: 1.5;
+}
+
+.transport-info-product {
+    padding-top: 20px;
+}
+
+.van-chuyen {
+    padding-right: 20px;
+    padding-bottom: 11px
+}
+
+.transport-info-product {
+    display: flex;
+}
+
+#cart-plus {
+    color: #d0011b;
+    ;
+}
+
+.xu-ly-don-hang {
+    padding-bottom: 10px;
+}
+
+.xu-ly-don-hang-shoppe {
+    padding: 0px 4px;
+}
+
+.van-chuyen-toi {
+    padding-left: 3px;
+}
+
+.address-city {
+    font-weight: 600;
+    padding-left: 12px;
+}
+
+.ship {
+    padding-left: 6px;
+}
+
+.pl-11 {
+    padding-left: 11px;
+}
+
+
+/* /////////////////////////////// COlor Product  */
+
+.color-product {
+    display: flex;
+    padding: 21px 0px;
+}
+
+.mau-sac {
+    cursor: pointer;
+    min-width: 5rem;
+    min-height: 2.125rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.25rem 0.75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0, 0, 0, .8);
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    word-break: break-word;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.mau-sac:hover {
+    border: 2px solid #d0011b;
+}
+
+.mau-sac.active~.click-mau-sac {
+    display: block;
+    /* border: 1px solid #d0011b; */
+}
+
+.test {
+    /* border: 1px solid #d0011b;s */
+    opacity: 0.4;
+    background-color: #1aff1a;
+}
+
+.list-color-product {
+    display: inline-flex;
+    padding-left: 7%;
+}
+
+.name-color-product {
+    padding-top: 7px;
+}
+
+.item {
+    position: relative;
+}
+
+.click-mau-sac {
+    cursor: pointer;
+    position: absolute;
+    top: 8%;
+    right: 38%;
+    border-radius: 50%;
+    display: none;
+    z-index: 1;
+    /* visibility: hidden; */
+}
+
+.click-mau-sac i {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.dp-block {
+    /* visibility: visible; */
+    display: block !important;
+}
+
+
+/* // So luong san phan ==================================== */
+
+#qty-product {
+    display: flex;
+}
+
+#qty {
+    padding-left: 7%;
+}
+
+.so-luong {
+    padding-top: 8px;
+}
+
+.qty {
+    min-width: 5rem;
+    min-height: 2.125rem;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.25rem 0.75rem;
+    margin: 0 8px 8px 0;
+    color: rgba(0, 0, 0, .8);
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, .09);
+    position: relative;
+    background: #fff;
+    outline: 0;
+    word-break: break-word;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-muted {
+    color: #6c757d!important;
+}
+
+.add-cart {
+    cursor: pointer;
+    border: 1px solid #8a7a7c;
+    background-color: #9ed0fc;
+    font-size: 16px;
+    height: 48px;
+    margin-right: 11px;
+    border-radius: 5px;
+}
+
+.buy-now-product {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #8a7a7c;
+    background-color: #d0011b;
+    font-size: 16px;
+    height: 48px;
+}
+
+.add-cart:hover {
+    background-color: rgb(106, 230, 117);
+    transition: all .4s;
+}
+
+.buy-now-info-product {
+    padding-top: 10px;
+}
+
+
+/* /// Bao hanh  */
+
+.bao-hanh {
+    display: flex;
+    /* padding: 0px 0px; */
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 4% 0px;
+    padding-top: 11px;
+    justify-content: space-between;
+}
+
+.seven-free,
+.hang-chinh-hang,
+.free-ship {
+    display: flex;
+    /* width: 100%; */
+}
+
+
+/* /// detail-san pham  */
+
+#detail-product {
+    background-color: #fff;
+    margin-top: 21px;
+/*    height: 100%;*/
+}
+
+.main-heading-detail-product {
+    padding: 28px 0px 0px 30px;
+}
+
+.heading-detail-product {
+    background: #f5f5f5;
+    font-size: 1.125rem;
+    padding: 0.875rem;
+    text-transform: capitalize;
+    width: 95%;
+    text-transform: uppercase;
+}
+
+.main-content-detail-product {
+    margin: 1.875rem 0.9375rem .9375rem;
+    width: 95%;
+    line-height: 1.875rem;
+    white-space: normal;
+    color: rgba(0, 0, 0, .8);
+    font-size: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 94%;
+}
+
+
+/* .main-content-detail-product p::before {
+    content: '\f111';
+    font-family: 'Font Awesome 5 Free';
+    line-height: normal;
+    font-weight: 900;
+} */
+
+.dots {
+    padding: 0 3%;
+}
+
+.pt-3 {
+    padding-bottom: 3%;
+}

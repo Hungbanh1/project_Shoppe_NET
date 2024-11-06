@@ -1,0 +1,99 @@
+﻿@model IEnumerable<BaiTapLonWeb.Models.Order>
+
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="card">
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0 ">Danh sách đơn hàng</h5>
+                   
+                </div>
+                <div class="card-body">
+                    
+                    <div class="analytic">
+                        <a href="?status=Ðang xử lý" class="text-primary">Đang Xử Lý<span class="text-muted"> (@ViewBag.ProcessingCount)</span></a>
+                        <a href="?status=Ðang vận chuyển" class="text-primary">Đang Giao<span class="text-muted">(@ViewBag.DeliveringCount) </span></a>
+                        <a href="?status=Thành công" class="text-primary">Thành Công<span class="text-muted">(@ViewBag.SuccessCount) </span></a>
+                        <a href="?status=Hủy đơn" class="text-primary">Đã Hủy<span class="text-muted">(@ViewBag.CancelledCount) </span></a>
+                        <a href="?status=all" class="text-primary">Xem Tất Cả<span class="text-muted">(@ViewBag.TotalCount)</span></a>
+                    </div>
+                    <form action="" method="GET">
+                        <table class="table table-striped">
+                            <thead>
+                                   <tr>
+
+                                        <th scope="col">#</th>
+                                        <th scope="col">Mã</th>
+                                        <th scope="col">Khách hàng</th>
+                                        <th scope="col">Số điện thoại</th>
+                                        <th scope="col">Tổng tiền</th>
+                                        <th scope="col">Trạng thái</th>
+                                        <th scope="col">Thời gian</th>
+                                        <th scope="col">Chi tiết</th>
+
+                                    </tr>
+                                </thead>
+                            <tbody>
+                                @{
+                                    // Sắp xếp danh sách item theo ngày đặt hàng (DateOrder) từ mới nhất đến cũ nhất
+                                    var sortedItems = Model.OrderByDescending(item => item.DateOrder);
+                                }
+                                @{ int STT = 0;}
+                                @foreach (var item in sortedItems)
+                                {
+                                    STT++;                            
+                                        <tr>
+                                            <th scope="row">@STT</th>
+                                            <td>@Html.Raw($"SP-19087621{item.OrderID}")</td>
+                                            <td>
+                                                @item.User.UserName
+                                            </td>
+
+                                            <td> @item.User.PhoneNumber</td>
+                                            @{
+                                                double total = Convert.ToDouble(@item.TotalMoney);
+
+                                                <td> @total.ToString("#,##0").Replace(',', '.') VNĐ</td>
+
+                                            }
+                                            <td>
+                                                @if (@item.OrderStatu.StatusName == "Ðang vận chuyển")
+                                                {
+                                                    <span class="badge badge-primary">@item.OrderStatu.StatusName</span>
+                                                }
+                                                else if (@item.OrderStatu.StatusName == "Ðang xử lý")
+                                                {
+                                                    <span class="badge badge-warning">@item.OrderStatu.StatusName</span>
+                                                }
+                                                else if (@item.OrderStatu.StatusName == "Thành công")
+                                                {
+                                                    <span class="badge badge-success">@item.OrderStatu.StatusName</span>
+                                                }
+                                                else
+                                                {
+                                                    <span class="badge badge-dark">@item.OrderStatu.StatusName</span>
+                                                }
+
+                                            </td>
+                                            <td>@item.DateOrder</td>
+                                            <td>
+                                                @Html.ActionLink("Chi Tiết", "Details", new { id = item.OrderID })
+                                            </td>
+                                        </tr>
+                                }
+                            </tbody>
+                        </table>
+
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+

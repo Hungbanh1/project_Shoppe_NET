@@ -1,0 +1,240 @@
+﻿@model BaiTapLonWeb.Models.Product
+<body>
+    <div id="wrapper">
+        @if (string.IsNullOrEmpty(Session["Email"]?.ToString()))
+        {
+            @Html.Partial("_HeaderProduct")
+        }
+        else
+        {
+
+            @Html.Partial("_HeaderProduct_after_login")
+        }
+
+        <div id="wp-product">
+            <div id="wp-content-product">
+                <ul class="list-item clearfix">
+                    <li>
+                        <a href="" class="pl-0" title="">Trang chủ</a>
+                    </li>
+                    <li>
+                        <a href="" title="">@Model.Category.CategoryName</a>
+                    </li>
+                    <li>
+                        <a href="" title="">@Model.ProductName</a>
+                    </li>
+                </ul>
+                <div class="main-content">
+
+                    <div class="img-product">
+                        <img src="~/public/images/@Model.ProductImage" width="450px" height="450px" alt="">
+                    </div>
+                    <div class="product-main">
+                        <div class="info-product">
+                            <div class="heading-product">
+                                <h1>@Model.ProductName</h1>
+                            </div>
+                            <div class="rating-product">
+                                <div class="rating-49">
+                                    <div class="list-stars">
+                                        <span class="num-49">4.9</span>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="feedback-product">
+                                    <div class="main-feedback">
+                                        <span class="num-57">57</span>
+                                        <span>Đánh giá</span>
+                                    </div>
+                                </div>
+                                <div class="sold-product">
+                                    <div class="main-sold-product">
+                                        <span>187</span>
+                                        <span>Đã bán</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        @{
+                            double price = Convert.ToDouble(@Model.ProductPrice);
+
+
+                            <div class="main-price-product">
+                                <div class="price-product">
+                                    <span class="new-price-product">@price.ToString("#,##0").Replace(',', '.') VNĐ</span>
+
+                                </div>
+                                <div class="gi-cung-re"> <span> Gì cùng rẻ </span> <i class="far fa-question-circle"></i></div>
+                                <div class="gia-tot-nhat">Giá tốt nhất so với các sản phẩm cùng loại trên Shopee!</div>
+                            </div>
+                        }
+                        <div class="transport-info-product">
+                            <div class="van-chuyen">
+                                <span>Vận chuyển</span>
+                            </div>
+                            <div class="main-menu-transport">
+                                <div class="xu-ly-don-hang">
+                                    <i id="cart-plus" class="fas fa-cart-plus"></i> <span class="xu-ly-don-hang-shoppe">
+                                        Xử
+                                        lý đơn hàng bỏi shoppe
+                                    </span> <i class="far fa-question-circle"></i>
+                                </div>
+                                <div class="van-chuyen">
+                                    <i class="far fa-truck-moving"></i> <span class="van-chuyen-toi">Vận chuyển tới:</span>
+                                    <a class="address-city" href="">Hồ Chí Minh <i class="far fa-chevron-down"></i></a>
+                                </div>
+                                <div class="phi-ship">
+                                    <i class="fas fa-hand-holding-usd"></i> <span class="ship">Phí vận chuyển:</span> <a href="" class="pl-11">19.500đ <i class="far fa-chevron-down"></i></a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <script>
+                            $(document).ready(function () {
+
+                                $(".item").click(function () {
+                                    $('.mau-sac').removeClass('active');
+                                    $('.mau-sac').removeClass('test');
+                                    $(this).children('.mau-sac').addClass('test');
+                                    $(this).children('.mau-sac').toggleClass('active');
+                                    return false;
+                                });
+                            })
+                        </script>
+
+                        <div class="color-product">
+                            <div class="name-color-product">
+                                <span>Màu sắc</span>
+                            </div>
+                            <div class="list-color-product">
+                                <div class="red-color-product item">
+                                    <button class="mau-sac">Đỏ</button>
+                                    <div class="click-mau-sac">
+                                        <i class="far fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="green-color-product item">
+                                    <button class="mau-sac">Xanh lá</button>
+                                    <div class="click-mau-sac">
+                                        <i class="far fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="blue-color-product item">
+                                    <button class="mau-sac">Xanh dương</button>
+                                    <div class="click-mau-sac">
+                                        <i class="far fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="gold-color-product item">
+                                    <button class="mau-sac">Vàng</button>
+                                    <div class="click-mau-sac">
+                                        <i class="far fa-check"></i>
+                                    </div>
+                                </div>
+
+                                <div class="white-color-product item">
+                                    <button class="mau-sac">Trắng</button>
+                                    <div class="click-mau-sac">
+                                        <i class="far fa-check"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- // So luong  -->
+                        <div id="qty-product">
+                            <div class="so-luong">
+                                <span>Số lượng</span>
+                            </div>
+
+                            <div id="qty">
+                                <input type="number" class="qty" value="1" id="quantity" name="quantity" min="1" max="8"> <span class="text-muted">8 sản phẩm có sẵn</span>
+                            </div>
+                        </div>
+                        <div class="buy-now-info-product">
+
+                            <a href="/ShopeeCart/AddToCart1/@Model.ProductID">
+                                <button class="add-cart"><i class="far fa-cart-plus"></i> Thêm vào giỏ hàng</button>
+                                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+                                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.css">
+
+                                @if (TempData["SuccessMessage"] != null)
+                                {
+                                    <script>
+                                        // Sử dụng SweetAlert2 để hiển thị MessageBox
+                                        Swal.fire({
+                                            icon: 'success',
+                                            title: 'Thành công!',
+                                            text: 'Bạn đã thêm sản phẩm thành công',
+                                            timer: 5000, // 5 giây
+                                            showConfirmButton: false
+                                        });
+                                    </script>
+                                }
+                            </a>
+                            <a href="/ShopeeCart/AddToCart/@Model.ProductID">
+                                <button class="buy-now-product">Mua ngay</button>
+                            </a>
+                        </div>
+
+
+
+
+
+                        <div class="bao-hanh">
+                            <div class="seven-free">
+                                <img src="~/public/images/tra-hang.png" width="18px" height="18px" alt="">
+                                <div>
+                                    7 ngày miễn phí trả hàng
+                                </div>
+                            </div>
+                            <div class="hang-chinh-hang">
+                                <img src="~/public/images/chinh-hang.png" width="18px" height="18px" alt="">
+                                <div>
+                                    Hàng chính hãng 100%
+                                </div>
+                            </div>
+                            <div class="free-ship">
+                                <img src="~/public/images/free-ship.png" width="18px" height="18px" alt="">
+                                <div>
+                                    Miễn phí vận chuyển
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div id="detail-product">
+                    <div class="main-heading-detail-product">
+
+                        <div class="heading-detail-product">
+                            <h1>Mô tả sản phẩm</h1>
+                        </div>
+                        <div class="main-content-detail-product">
+
+                                <pre style="font-family:'Times New Roman', Times, serif;font-size:17px"> @Model.ProductDescription</pre> 
+ 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        @Html.Partial("_Footer_not_every_thing")
+
+    </div>
+    </div>
+
+</body>
+
+</html>

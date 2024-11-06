@@ -1,0 +1,186 @@
+﻿@model List<BaiTapLonWeb.Models.Product>
+
+@{
+    Layout = null;
+}
+
+
+      <body>
+          <div id="wrapper" class="bg-red">
+              @Html.Partial("_Header")
+
+
+              <div id="wp-category" class="wp-category">
+                  <div id="content-category">
+
+                      <div id="list-category-checkbox-search-left">
+                          <div id="header-filter-search">
+                              <div class="icon">
+
+                              </div>
+                              <div class="span-search d-fl">
+                                  <i class="fa-solid fa-filter" style="color:
+                                        #989ea9;font-size: 13px;
+                                        margin-top: 3px;
+                                        margin-right: 4px;"></i><span>
+                                      BỘ LỌC TÌM
+                                      KIẾM
+                                  </span>
+                              </div>
+                              <form action="" class="form-for-category">
+                                  <header class="for-category-header">Theo Danh Mục</header>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Hộp, Túi Đựng Bút </label> <span class="qty_checkbox_filter">(947)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Sổ và Giấy Các Loại </label> <span class="qty_checkbox_filter">(931)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Bút viết </label> <span class="qty_checkbox_filter">(895)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Nhà Cửa & Đời Sống </label> <span class="qty_checkbox_filter">(664)</span>
+                                  </div>
+                              </form>
+                              <form action="" class="form-for-category">
+                                  <header class="for-category-header">Theo Danh Mục</header>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Hộp, Túi Đựng Bút </label> <span class="qty_checkbox_filter">(947)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Sổ và Giấy Các Loại </label> <span class="qty_checkbox_filter">(931)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Bút viết </label> <span class="qty_checkbox_filter">(895)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Nhà Cửa & Đời Sống </label> <span class="qty_checkbox_filter">(664)</span>
+                                  </div>
+                              </form>
+                              <form action="" class="form-for-category">
+                                  <header class="for-category-header">Theo Danh Mục</header>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Hộp, Túi Đựng Bút </label> <span class="qty_checkbox_filter">(947)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Sổ và Giấy Các Loại </label> <span class="qty_checkbox_filter">(931)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Bút viết </label> <span class="qty_checkbox_filter">(895)</span>
+                                  </div>
+                                  <div class="state">
+                                      <input type="checkbox">
+                                      <label>Nhà Cửa & Đời Sống </label> <span class="qty_checkbox_filter">(664)</span>
+                                  </div>
+                              </form>
+                          </div>
+                      </div>
+                      <div id="list-category-right">
+                          <div id="banner-category" class="bg-white">
+                              <div class="head-category d-fl">
+                                  <div class="brand-lovito mt-4p">
+                                      <img src="../../public/images/lovito.png"
+                                           width="36px" height="36px" alt="">
+                                  </div>
+                                  <div class="lovito-official">
+                                      <p>Lovito Official</p>
+                                  </div>
+                              </div>
+                              <div class="banner-foot-category">
+                                  <img src="../../public/images/sale50.gif" width="1050px" alt="">
+                              </div>
+                          </div>
+                          <div id="search-results-keyword" class="d-fl">
+                              <div class="icon-search-result">
+                                  <i class="fa-regular fa-lightbulb" style="color:
+                                        #555;font-size: 25px;"></i>
+                              </div>
+                              <div class="results-for d-fl">
+                                  <span>Kết quả tìm kiếm cho từ khoá</span> <span class="cl-red">'@ViewBag.SearchTerm' </span>
+
+                              </div>
+                          </div>
+                          @if (Model.Count > 0)
+                          {
+                              <div class="wp-suggest">
+                                  <ul class="ul-suggest">
+                                      @foreach (var item in Model)
+                                      {
+                                          <li class="suggest-li">
+                                              <a href="/Chi-Tiet-San-Pham/@item.ProductID">
+                                                  <div class="product-suggest">
+
+                                                      <div class="img-suggest-product">
+                                                          <img src="~/public/images/@item.ProductImage" width="206px" height="207px" />
+                                                      </div>
+                                                      <div class="content-suggest-product
+                                                    item">
+
+
+
+
+
+
+
+
+
+
+
+                                                          <div class="name-suggest-product">
+                                                              <span>
+                                                                  @item.ProductName
+                                                              </span>
+                                                          </div>
+                                                          <div class="footer-suggest-product">
+                                                              @{
+                                                                  double price = Convert.ToDouble(@item.ProductPrice);
+                                                                  <div class="price-suggest">
+                                                                      <span>@price.ToString("#,##0").Replace(',', '.') VNĐ</span>
+                                                                  </div>
+                                                              }
+                                                              <div class="sold">
+                                                                  <span>Đã bán : 474</span>
+                                                              </div>
+                                                          </div>
+                                                      </div>
+                                                      <div class="buy-now dp-none">
+                                                          <a href="/ShopeeCart/AddToCart/@item.ProductID">
+                                                              <p class="">Mua ngay</p>
+                                                      </div>
+                                                  </div>
+                                              </a>
+                                          </li>
+
+                                      }
+                                  </ul>
+
+                              </div>
+                          }
+                          else
+                          {
+                              <h1>Không tìm thấy sản phẩm phù hợp.</h1>
+                          }
+                      </div>
+                  </div>
+
+
+              </div>
+
+              @Html.Partial("_Footer_not_every_thing")
+
+          </div>
+
+
+      </body>
+    

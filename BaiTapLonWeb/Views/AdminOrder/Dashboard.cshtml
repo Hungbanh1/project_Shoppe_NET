@@ -1,0 +1,222 @@
+﻿@model IEnumerable<BaiTapLonWeb.Models.Order>
+
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="row">
+
+                <div class="col">
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG XỬ LÝ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Ðang xử lý")</h5>
+                            <p class="card-text">Số lượng đơn hàng đang xử lý</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG VẬN CHUYỂN</div>
+                        <div class="card-body">
+                            <h5 class="card-title" name="Đang vận chuyển">@Model.Count(o => o.OrderStatu.StatusName == "Ðang vận chuyển")</h5>
+                            <p class="card-text">Số đơn đang vận chuyển trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+
+                @{
+                    int number = 10;
+                    Console.WriteLine("The value of number is: " + number);
+                }
+                @{ int STT = 0;
+                    double totalmoney = 0;}
+                @foreach (var item in Model)
+                {
+
+
+                    double total1 = Convert.ToDouble(@item.TotalMoney);
+                    if (HttpContext.Current.Request.QueryString["status"] != "cancelled" && item.OrderStatu.StatusName != "Đã Hủy")
+                    {
+                        totalmoney = totalmoney + total1;
+                    }
+
+                }
+                <div class="col">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header">DOANH SỐ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@totalmoney.ToString("#,##0").Replace(',', '.') VNĐ</h5>
+                            <p class="card-text">Doanh số hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG THÀNH CÔNG</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Thành công")</h5>
+                            <p class="card-text">Đơn hàng giao dịch thành công</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG HỦY</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Hủy đơn")</h5>
+                            <p class="card-text">Số đơn bị hủy trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0 ">Đơn hàng</h5>
+
+                </div>
+                <div class="card-body">
+
+                    <form action="" method="GET">
+
+
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Mã</th>
+                                    <th scope="col">Khách hàng</th>
+                                    <th scope="col">Số điện thoại</th>
+                                    <th scope="col">Tổng tiền</th>
+                                    <th scope="col">Trạng thái</th>
+                                    <th scope="col">Thời gian</th>
+                                    <th scope="col">Chi tiết</th>
+                                    <th scope="col">Báo cáo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    // Sắp xếp danh sách item theo ngày đặt hàng (DateOrder) từ mới nhất đến cũ nhất
+                                    var sortedItems = Model.OrderByDescending(item => item.DateOrder);
+                                }
+                                @{
+                                    string status = HttpContext.Current.Request.QueryString["status"];
+                                }
+
+                                <div>
+                                    @if (status != null) // Kiểm tra nếu status không phải là null
+                                    {
+                                        <p>Status: @status</p>// Hiển thị giá trị
+                                    }
+                                </div>
+                                @foreach (var item in sortedItems)
+                                {
+
+
+                                    STT++;
+                                    //if (HttpContext.Current.Request.QueryString["status"] == "success" && item.OrderStatu.StatusName == "Thành Công")
+                                    //{
+                                    <tr>
+                                        <th scope="row">@STT</th>
+                                        <td>@item.CodeOrder</td>
+                                        @*<H1>@item.OrderStatu.StatusName</H1>*@
+                                        <td>
+                                            @item.User.UserName
+                                        </td>
+                                        @if (@item.User.PhoneNumber == null)
+                                        {
+                                            <td>Chưa cập nhật</td>
+                                        }
+
+                                        else
+                                        {
+
+                                            <td> @item.User.PhoneNumber</td>
+                                        }
+                                        @{
+                                            double total = Convert.ToDouble(@item.TotalMoney);
+
+                                            <td> @total.ToString("#,##0").Replace(',', '.') VNĐ</td>
+                                        }
+                                        <td>
+                                            @if (@item.OrderStatu.StatusName == "Ðang vận chuyển")
+                                            {
+                                                <span class="badge badge-primary">@item.OrderStatu.StatusName</span>
+                                            }
+                                            else if (@item.OrderStatu.StatusName == "Ðang xử lý")
+                                            {
+                                                <span class="badge badge-warning">@item.OrderStatu.StatusName</span>
+                                            }
+                                            else if (@item.OrderStatu.StatusName == "Thành công")
+                                            {
+                                                <span class="badge badge-success">@item.OrderStatu.StatusName</span>
+                                            }
+                                            else
+                                            {
+                                                <span class="badge badge-dark">@item.OrderStatu.StatusName</span>
+                                            }
+
+                                        </td>
+                                        <td>@(item.DateOrder)</td>
+                                        @*<td>@(item.DateOrder.Value.ToString("yyyy-MM-dd HH:mm:ss"))</td>*@
+                                        <td>
+                                            @Html.ActionLink("Chi Tiết", "Details", new { id = item.OrderID })
+                                        </td>
+                                        <td>
+                                            <a href="#" class="btnExportbyId" data-id="@item.OrderID">Xuất report</a>
+                                        </td>
+                                    </tr>
+                                    @*}*@
+
+
+                                }
+                            </tbody>
+                        </table>
+
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+       $(document).ready(function () {
+           $(".btnExportAll").on('click', function () {
+               //var orderId = $(this).data('id');
+               $.ajax({
+                   datatype: 'json',
+                   type: 'GET',
+                   url: '/AdminOrder/ExportExcelAll',
+                   success: function (resp) {
+                       if (resp !== '') {
+                           location.href = "/Export/ExportExcelAll" + resp;
+
+                       }
+                   }
+               })
+           })
+           $(".btnExportbyId").on('click', function () {
+               var orderId = $(this).data('id');
+               $.ajax({
+                   datatype: 'json',
+                   type: 'GET',
+                   url: '/AdminOrder/ExportExcelbyId',
+                   data: { orderId: orderId },
+
+                   success: function (resp) {
+                       if (resp !== '') {
+                           location.href = "/Export/ExportExcel" + resp;
+
+                       }
+                   }
+               })
+           })
+       })
+
+    </script>
+</body>
+

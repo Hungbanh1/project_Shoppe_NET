@@ -1,0 +1,32 @@
+#register {
+    padding: 4% 0px;
+}
+.by-regis-and-agree{
+    text-align: center;
+    padding: 14px 0px;
+    font-size: 13px;
+
+}
+.by-regis-and-agree a {
+    display: block;
+    color: #ee4d2d;
+  }
+  .by-regis-and-agree a {
+    white-space: nowrap;
+  }
+  .term-of-ser{
+      margin-right: 4px;
+    }
+    .privacy-policy{
+      margin-left: 4px;
+
+  }
+.already-acc{
+    text-align: center;
+    padding: 12px 0px 18px 0px;
+}
+.already-acc a{
+    color: #ee4d2d;
+}
+
+  

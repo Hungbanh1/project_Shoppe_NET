@@ -1,0 +1,107 @@
+﻿@model IEnumerable<BaiTapLonWeb.Models.User>
+
+
+@{
+    Layout = null;
+}
+
+
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="card">
+
+
+
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0 ">Danh sách thành viên</h5>
+
+                   
+                </div>
+                <div class="card-body">
+
+                    
+                    <form action="" method="">
+                      
+                        <table class="table table-striped table-checkall">
+                            <thead>
+                                <tr>
+
+                                    <th scope="col">#</th>
+                                    <th scope="col">Họ tên</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Quyền</th>
+                                    <th scope="col">SDT</th>
+                                    <th scope="col">Ảnh</th>
+                                    <th scope="col">Địa Chỉ</th>
+                                    <th scope="col">Tác vụ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{
+                                    int count = 0;
+                                }
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+                                    <tr>
+
+                                        <th scope="row">@count.ToString()</th>
+
+                                        <td> @Html.ActionLink(item.UserName, "Details", new { id = @item.UserID })</td>
+                                        <td>@item.Email</td>
+
+                                        <td>
+                                            <strong>
+                                                @item.Role
+
+                                            </strong>
+                                        </td>
+                                        <td>@item.PhoneNumber</td>
+                                        <td><img src="~/public/images/@item.ImageUser" height="50" width="50" /></td>
+                                        <td>@item.Address</td>
+
+
+
+                                        <td>
+
+                                            <a href="/AdminUser/Edit/@item.UserID"
+                                               class="btn btn-success btn-sm rounded-0 text-white" type="button"
+                                               data-toggle="tooltip" data-placement="top" title="Edit">
+                                                <i class="fa fa-edit"></i>
+                                            </a>
+                                            <a href="/AdminUser/Delete/@item.UserID"
+                                               class="btn btn-danger
+                                                        btn-sm rounded-0
+                                                        text-white"
+                                               type="button"
+                                               data-toggle="tooltip"
+                                               data-placement="top"
+                                               title="Delete">
+                                                <i class="fa fa-trash"></i>
+                                            </a>
+
+
+
+                                        </td>
+                                    </tr>
+                                }
+
+
+                            </tbody>
+                        </table>
+                    </form>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+

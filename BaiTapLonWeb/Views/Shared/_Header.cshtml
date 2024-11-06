@@ -1,0 +1,173 @@
+﻿
+@{
+    ViewBag.Title = "_Header";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    @*<link rel="stylesheet" href="~/public/css/reset.css">*@
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+          href="~/public/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+          href="~/public/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="~/public/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="~/public/font/fontawesome.min.css">
+    <link rel="stylesheet"
+          href="~/public/font/fontawesome/css/fontawesome.min.css">
+
+    <link rel="stylesheet" href="~/public/css/style.css">
+    <link rel="stylesheet" href="~/public/css/style-1.css">
+
+    <link rel="stylesheet" href="~/public/css/category.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap"
+          rel="stylesheet">
+    <script src="~/public/js/jquery-3.6.0.min.js"></script>
+    <script src="~/public/owlcarousel/owl.carousel.min.js"></script>
+    <script src="~/public/js/hover.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Document</title>
+</head>
+<div id="header">
+    <div id="wp-header">
+        <div class="wp-inner">
+            <div id="header-info" class="d-fl js-content-bt pt-8">
+                <div class="header-right d-fl">
+                    <div class="channel-shoppe">
+
+                        <a href="">Kênh người bán</a> <span class="mr-header">|</span>
+                    </div>
+                    <div class="becomse-seller-shoppe">
+                        <a href="">Trở thành Người bán Shopee</a>
+                        <span class="mr-header">|</span>
+                    </div>
+                    <div class="download-app">
+                        <a href="">Tải ứng dụng</a> <span class="mr-header">|</span>
+
+                    </div>
+                    <div class="connect-shoppe d-fl">
+                        <a href="">Kết nối</a>
+                        <div class="icon-connect d-fl">
+                            <a href="">
+                                <i class="fa-brands fa-facebook
+                                                white"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands
+                                                fa-square-instagram
+                                                white"></i>
+                            </a>
+
+                           
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="header-left d-fl">
+                    <div class="noti-shoppe">
+                        <i class="fa-regular fa-bell" style="color:
+                                        #ffffff;"></i>
+                        <a href="">Thông báo</a> <span class="mr-header"></span>
+                    </div>
+                    <div class="support-shoppe">
+                        <i class="fa-regular fa-circle-question"
+                           style="color: #ffffff;"></i>
+                        <a href="">Hỗ trợ</a> <span class="mr-header"></span>
+
+                    </div>
+                    <div class="language-shoppe">
+                        <i class="fa-solid fa-globe" style="color:
+                                        #ffffff;"></i>
+                        <a href="">Tiếng việt</a> <span class="mr-header"></span>
+
+                    </div>
+                    <div class="support-shoppe">
+                        @Html.ActionLink("Đăng ký", "Register", "Login")<span class="mr-header"></span>
+                    </div>
+                    <div class="support-shoppe">
+                       
+                        @Html.ActionLink("Đăng nhập", "Index", "Login")<span class="mr-header"></span>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div id="header-search" class="d-fl js-content-bt">
+
+                <div class="logo-shop ml-14">
+                    <a href=" @Url.Action("Index","Products")" class="logo">
+                        <img class="shopee-svg-icon" src="~/public/svg/logo-index.svg" alt="">
+
+                    </a>
+                </div>
+
+                <div class="search">
+                    <div class="form-search position-relative">
+                        @using (Html.BeginForm("Search", "Products", FormMethod.Get))
+                        {
+                            <form action="">
+                             
+
+                                @Html.TextBox("searchTerm", null, new { @class = "form-control", @id = "keyword", placeholder = "Đăng ký và nhận voucher  bạn mới đến 70k!" })
+
+                                <button class="search-button
+                                            position-absolute " type="submit">
+                                    <i class="fa-solid
+                                                fa-magnifying-glass "></i>
+                                </button>
+
+                            </form>
+                        }
+                        </div>
+                    <div class="under-form">
+                        <div class="list-key-hot d-fl">
+                           
+                            <p> <a href="">Đồ Dùng Học Tập</a></p>
+                            <p><a href="">Card Blackpink</a></p>
+                            <p><a href="">Dép</a></p>
+                            <p><a href="">Vợt Cầu Lông</a></p>
+                            <p><a href="">Áo Đá Bóng</a></p>
+                            <p><a href="">Váy Babydoll</a></p>
+                            <p><a href="">Quạt Mini</a></p>
+                            <p><a href="">Gấu Dâu</a></p>
+                            <p><a href="">Sticker</a></p>
+                            <p><a href="">Gấu Dâu</a></p>
+                            <p><a href="">Sticker</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart position-absolute r-5">
+                    <a href=" @Url.Action("ShowToCart","ShopeeCart") ">
+
+                        <i class="fa fa-shopping-cart"
+                           id="fa-shopping-cart"
+                           aria-hidden="true">
+                            
+                           
+                        </i>
+                        @Html.Action("BagCart", "ShopeeCart")
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+</html>

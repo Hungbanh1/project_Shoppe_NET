@@ -1,0 +1,49 @@
+.footer_order div p span{
+    color: red;
+    font-weight: 700;
+}
+.footer_order {
+    padding: 20px 0px 20px 22px;
+}
+.total_order {
+    padding-top: 4%;
+    background-color: #fff;
+    border-top: 1px solid #dee2e6;
+ 
+}
+.product_order{
+    background-color: #fff;
+
+}
+.form_order select{
+    margin-left: 5%;
+}
+.format_order{
+    background-color: #fff ; 
+    border:none;
+    padding-left:5%;
+}
+table > tbody > tr > td.qty{
+    padding-left: 3%;
+}
+table > thead > tr > th .price{
+    padding-left: 4%;
+}
+.table_order >tbody>tr>td>p {
+    float: left;
+}
+
+.edit-fa-post{
+    display: flex;
+}
+
+/**********************************  PAGE **********************/
+
+.content_page{
+    padding:24px 0px 0px 20px;
+}
+.back button a{
+    color: #fff!important;
+}
+
+

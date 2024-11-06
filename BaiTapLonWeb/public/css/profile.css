@@ -1,0 +1,132 @@
+﻿.heading-my-profile h1 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    color: #333;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.my-profile {
+    padding-top: 2%;
+    margin: 0 4%;
+}
+
+.heading-my-profile h2 {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.0625rem;
+    color: #555;
+    margin-bottom: 2%;
+}
+
+.heading-my-profile {
+    border-bottom: 1px solid #ebebeb;
+    margin-bottom: 2%;
+}
+
+.left-main-my-profile {
+    text-align: left;
+    color: rgba(85,85,85,.8);
+    overflow: hidden;
+    padding-bottom: 30px;
+    white-space: nowrap;
+    min-width: 20%;
+    margin-left: 2%;
+}
+
+.right-main-my-profile {
+    margin-left: -500px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.form-in-big {
+    margin-left: -200px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,.14);
+    border-radius: 2px;
+    box-shadow: inset 0 2px 0 rgba(0,0,0,.02);
+}
+
+.flex-7 {
+    flex: 7;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.asc-gmail,
+.asc-phone {
+    margin-right: 1%;
+}
+
+.right-main-my-profile input {
+    margin-right: 5px;
+}
+
+.right-main-my-profile label {
+    margin-right: 5px;
+}
+
+.mb-3 {
+    margin-bottom: 3%;
+}
+
+.btn-update {
+    color: white;
+    width: 100%;
+    padding: 13px 36px;
+    text-transform: capitalize;
+    font-weight: 300;
+    /* height: 2.5rem; */
+    box-sizing: border-box;
+    font-size: 14px;
+    /* border-radius: 2px; */
+    width: 15%;
+    background-color: #ee4d2d;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    margin-left: 48%;
+    white-space: nowrap;
+}
+
+.right-main-my-profile a {
+    border: 0;
+    outline: none;
+    background: none;
+    color: #05a;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.avatar-my-profile img {
+    margin-left: -10%;
+}
+
+.ma-3 {
+    margin: 0px 3%;
+}
+
+.validation-message {
+    margin-left: -485px; /* Khoảng cách từ thông báo đến ô text box */
+    text-align :left;
+    color: red; /* Màu sắc của thông báo */
+    font-size: 12px; /* Kích thước chữ của thông báo */
+    white-space: nowrap; /* Không ngắt dòng cho thông báo */
+    margin-top:50px
+}
+

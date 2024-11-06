@@ -1,0 +1,132 @@
+﻿@model IEnumerable<BaiTapLonWeb.Models.Order>
+@using Newtonsoft.Json
+
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+        <div id="content" class="container-fluid">
+            <div class="row">
+
+                <div class="col">
+                    <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG XỬ LÝ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Ðang xử lý")</h5>
+                            <p class="card-text">Số lượng đơn hàng đang xử lý</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐANG VẬN CHUYỂN</div>
+                        <div class="card-body">
+                            <h5 class="card-title" name="Đang vận chuyển">@Model.Count(o => o.OrderStatu.StatusName == "Ðang vận chuyển")</h5>
+                            <p class="card-text">Số đơn đang vận chuyển trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+
+                @{
+                    int number = 10;
+                    Console.WriteLine("The value of number is: " + number);
+                }
+                @{ int STT = 0;
+                    double totalmoney = 0;}
+                @foreach (var item in Model)
+                {
+
+
+                    double total1 = Convert.ToDouble(@item.TotalMoney);
+                    if (HttpContext.Current.Request.QueryString["status"] != "cancelled" && item.OrderStatu.StatusName != "Đã Hủy")
+                    {
+                        totalmoney = totalmoney + total1;
+                    }
+
+                }
+                <div class="col">
+                    <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                        <div class="card-header">DOANH SỐ</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@totalmoney.ToString("#,##0").Replace(',', '.') VNĐ</h5>
+                            <p class="card-text">Doanh số hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG THÀNH CÔNG</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Thành công")</h5>
+                            <p class="card-text">Đơn hàng giao dịch thành công</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <div class="card-header">ĐƠN HÀNG HỦY</div>
+                        <div class="card-body">
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Hủy đơn")</h5>
+                            <p class="card-text">Số đơn bị hủy trong hệ thống</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header font-weight-bold d-flex justify-content-between align-items-center">
+                    <h5 class="m-0 ">Thống kê</h5>
+
+                </div>
+                <div class="card-body">
+                    <div>
+
+                    <a href="#" class="btnExportAll" data-id="3">Xuất report all</a>
+                    </div>
+                    <div>
+
+                    <a href="#" class="btnExportbyId" data-id="1042">Xuất report theo id</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+    <script>
+        $(document).ready(function () {
+            $(".btnExportAll").on('click', function () {
+                //var orderId = $(this).data('id');
+                $.ajax({
+                    datatype: 'json',
+                    type: 'GET',
+                    url: '/AdminOrder/ExportExcelAll',
+                    success: function (resp) {
+                        if (resp !== '') {
+                            location.href = "/Export/ExportExcelAll" + resp;
+
+                        }
+                    }
+                })
+            })
+            $(".btnExportbyId").on('click', function () {
+                var orderId = $(this).data('id');
+                $.ajax({
+                    datatype: 'json',
+                    type: 'GET',
+                    url: '/AdminOrder/ExportExcelbyId',
+                    data: { orderId: orderId },
+
+                    success: function (resp) {
+                        if (resp !== '') {
+                            location.href = "/Export/ExportExcel" + resp;
+
+                        }
+                    }
+                })
+            })
+        })
+        
+    </script>
+</body>
+

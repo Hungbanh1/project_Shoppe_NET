@@ -1,0 +1,125 @@
+﻿@model BaiTapLonWeb.Models.User
+
+@{
+    ViewBag.Title = "Register";
+}
+
+
+<body>
+   
+    @using (Html.BeginForm())
+    {
+        <div id="wrapper">
+            @Html.Partial("_HeaderRegis")
+
+            <div class="main-form-regis">
+                <div class="main-content">
+                    <div class="form-main-content">
+                        @Html.AntiForgeryToken()
+                        <div id="register" class="header-form-login
+                                    d-fl">
+                            <div class="heading-form-login">
+                                <h1>Đăng ký</h1>
+                            </div>
+                        </div>
+                        <div class="main-form">
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group">
+
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.UserName,
+                                   new { htmlAttributes = new { @class = "form-input", placeholder = "UserName" } })
+                                    @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.Email,
+                                    new { htmlAttributes = new { @class = "form-input", placeholder = "Email" } })
+                                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+
+                                <div class="col-md-10">
+                                    @Html.EditorFor(model => model.PassWord,
+                                    new { htmlAttributes = new { @class = "form-input", placeholder = "Password", type="password" } })
+                                    @Html.ValidationMessageFor(model => model.PassWord, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            
+
+                            <input class="form-login" type="submit"
+                                   class="btn btn-default"
+                                   value="Register" />
+
+                            <div class="or-form-login text-center">
+                                <span class="or"><div class="text-or">Hoặc</div></span>
+                            </div>
+                            <div class="btn-all d-auto">
+                                <button class="fb">
+                                    <div class="icon-img-login
+                                            dl-center">
+                                        <img width="25px" height="25px"
+                                             class="icon-fb"
+                                             src="../public/images/fb123.png"
+                                             alt=""><div class="">Facebook</div>
+                                    </div>
+                                </button>
+                                <button class="gg">
+                                    <div class="icon-img-login
+                                            dl-center">
+                                        <img class="bg-white"
+                                             src="../public/images/google1.png"
+                                             width="35px" height="35px"
+                                             alt="">
+                                        <div class="">Google</div>
+                                    </div>
+                                </button>
+                            </div>
+                            <div class="by-regis-and-agree">
+                                Bằng việc đăng kí, bạn đã đồng ý với
+                                Shopee về
+                                <div class="policy d-auto">
+                                    <a class="term-of-ser" href="">
+                                        Điều
+                                        khoản dịch vụ
+                                    </a>
+
+
+                                    &amp;
+
+                                    <a class="privacy-policy" href="">
+                                        Chính
+                                        sách bảo mật
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="already-acc">
+                                <span class="text-muted">
+                                    Bạn đã có tài
+                                    khoản?
+
+                                </span>
+                                @Html.ActionLink("Đăng nhập", "Index", "Login")
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @Html.Partial("_Footer_not_every_thing")
+
+            </div>
+        </div>
+    }
+
+
+
+</body>
+
+                    @section Scripts {
+                        @Scripts.Render("~/bundles/jqueryval")
+                    }
