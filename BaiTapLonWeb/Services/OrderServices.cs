@@ -30,6 +30,7 @@ namespace BaiTapLonWeb.Services
                         ProductName = x.Product.ProductName,
                         Amount = (int)x.OrderDetail.Amount,
                         Price = (int)x.OrderDetail.Price,
+                        TotalMoney = (int)x.Order.TotalMoney,
                         DateOrder = (DateTime)x.Order.DateOrder // Lấy DateOrder từ bảng Orders
                     }).ToList();
 
@@ -40,17 +41,29 @@ namespace BaiTapLonWeb.Services
         {
             using (var db = new ShopeeEntities())
             {
-                var lsDetail = db.OrderDetails.Join(db.Products, x => x.ProductID,
-                                                                   y => y.ProductID, (x, y) => new { detail = x, product = y })
-                                                                       .Where(x => x.detail.Order.User.Role == false)
-                                                                      .Select(x => new ExcelModel
-                                                                      {
-                                                                          OrderId = (int)x.detail.OrderID,
-                                                                          UserName = x.detail.Order.User.UserName,
-                                                                          ProductName = x.product.ProductName,
-                                                                          Amount = (int)x.detail.Amount,
-                                                                          Price = (int)x.detail.Price,
-                                                                      }).ToList();
+                var lsDetail = db.OrderDetails
+                    .Join(db.Products,
+                        orderDetail => orderDetail.ProductID,
+                        product => product.ProductID,
+                        (orderDetail, product) => new { OrderDetail = orderDetail, Product = product })
+                     .Join(db.Orders,
+                        orderDetail => orderDetail.OrderDetail.OrderID,
+                        order => order.OrderID,
+                        (orderDetail, order) => new { orderDetail.OrderDetail, orderDetail.Product, Order = order })
+                     .Where(x => x.OrderDetail.Order.User.Role == false)
+                     .Select(x => new ExcelModel
+                            {
+                            OrderId = (int)x.OrderDetail.OrderID,
+                            CodeOrder = x.OrderDetail.CodeOrder,
+                            UserName = x.Order.User.UserName,
+                            ProductName = x.Product.ProductName,
+                            Amount = (int)x.OrderDetail.Amount,
+                            Price = (int)x.OrderDetail.Price,
+                            TotalMoney = (int)x.Order.TotalMoney,
+                            DateOrder = (DateTime)x.Order.DateOrder // Lấy DateOrder từ bảng Orders
+
+
+                      }).ToList();
                 return lsDetail;
 
             }

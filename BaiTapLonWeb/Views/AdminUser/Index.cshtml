@@ -54,16 +54,24 @@
                                         <td>@item.Email</td>
 
                                         <td>
-                                            <strong>
-                                                @item.Role
+                                            @if (@item.Role == true)
+                                            {
+                                                <strong>
+                                                    Quản trị viên
+                                                </strong>
+                                            }
 
-                                            </strong>
                                         </td>
                                         <td>@item.PhoneNumber</td>
-                                        <td><img src="~/public/images/@item.ImageUser" height="50" width="50" /></td>
+                                        @if (item.ImageUser != null)
+                                        {
+                                            <td><img src="~/public/images/@item.ImageUser" height="50" width="50" /></td>
+                                        }
+                                        else
+                                        {
+                                            <td><img src="~/public/images/user-default.jpg" height="50" width="50" /></td>
+                                        }
                                         <td>@item.Address</td>
-
-
 
                                         <td>
 

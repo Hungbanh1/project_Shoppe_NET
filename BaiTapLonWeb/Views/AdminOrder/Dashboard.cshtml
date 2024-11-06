@@ -93,7 +93,7 @@
                                     <th scope="col">Trạng thái</th>
                                     <th scope="col">Thời gian</th>
                                     <th scope="col">Chi tiết</th>
-                                    <th scope="col">Báo cáo</th>
+                                    <th style="text-align:center" scope="col">Báo cáo</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -120,7 +120,16 @@
                                     //{
                                     <tr>
                                         <th scope="row">@STT</th>
-                                        <td>@item.CodeOrder</td>
+                                            @if(@item.CodeOrder != null)
+                {
+                                        <td>
+                                            @item.CodeOrder
+                                        </td>
+                }
+else
+                {
+                                    <td>SP-19112002</td>
+                }
                                         @*<H1>@item.OrderStatu.StatusName</H1>*@
                                         <td>
                                             @item.User.UserName
@@ -164,8 +173,8 @@
                                         <td>
                                             @Html.ActionLink("Chi Tiết", "Details", new { id = item.OrderID })
                                         </td>
-                                        <td>
-                                            <a href="#" class="btnExportbyId" data-id="@item.OrderID">Xuất report</a>
+                                        <td style="text-align:center">
+                                            <a href="#" class="btnExportbyId" data-id="@item.OrderID"><i class="fa-solid fa-download"></i></a>
                                         </td>
                                     </tr>
                                     @*}*@

@@ -16,6 +16,7 @@ namespace BaiTapLonWeb.Models
         public int Amount { get; set; }
         public decimal Price { get; set; }
 
+        public decimal TotalMoney { get; set; }
         public DateTime DateOrder { get; set; }
 
 

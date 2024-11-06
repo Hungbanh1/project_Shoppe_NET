@@ -1,141 +1,153 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\",
+  "WorkspaceRootPath": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\downloads\\nhom 13_123\\nhom13_santmdt\\filecode\\baitaplonweb\\baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\controllers\\adminordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\adminordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminorder\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\excelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\excelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\shopeecart\\showtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shopeecart\\showtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\orderstatu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderstatu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\shopeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\shopeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminorder\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\public\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\public\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\login\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\controllers\\adminordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\adminordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminorder\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\downloads\\nhom 13_123\\nhom13_santmdt\\filecode\\project_shoppe_net\\baitaplonweb\\views\\adminuser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminuser\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\downloads\\nhom 13_123\\nhom13_santmdt\\filecode\\project_shoppe_net\\baitaplonweb\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminuser\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\services\\orderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\downloads\\nhom 13_123\\nhom13_santmdt\\filecode\\project_shoppe_net\\baitaplonweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\shopeecart\\showtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shopeecart\\showtocart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\excelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\excelmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\downloads\\nhom 13_123\\nhom13_santmdt\\filecode\\project_shoppe_net\\baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\login\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\orderstatu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderstatu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\shopeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\shopeemodel.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminorder\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\cartmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\public\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\public\\js\\chart.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\models\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\login\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\login\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminproduct\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\public\\js\\hover.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\public\\js\\hover.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\public\\js\\hover.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminorder\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\shopeecart\\bagcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\shopeecart\\bagcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shopeecart\\bagcart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\baitaplonweb\\views\\adminproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\baitaplonweb\\views\\adminproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\adminproduct\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -146,15 +158,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Products\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Products\\Index.cshtml",
               "ViewState": "AgIAAF8BAAAAAAAAAAAuwD4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -165,14 +177,41 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "ShowToCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\ShopeeCart\\ShowToCart.cshtml",
               "ViewState": "AgIAAPMAAAAAAAAAAAAuwAMBAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-02T03:05:22.1Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminUser\\Create.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminUser\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminUser\\Create.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminUser\\Create.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T03:47:01.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminUser\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminUser\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminUser\\Index.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminUser\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T03:38:49.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -184,47 +223,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderServices.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Services\\OrderServices.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Services\\OrderServices.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Services\\OrderServices.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Services\\OrderServices.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBsAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAuwF8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-18T09:32:04.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAADgv00AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T02:46:54.605Z"
+              "WhenOpened": "2024-10-18T09:57:01.885Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "AdminOrderController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Controllers\\AdminOrderController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAASwDsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T08:53:06.773Z"
+              "WhenOpened": "2024-11-02T08:53:06.773Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Dashboard.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
-              "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminOrder\\Dashboard.cshtml",
-              "ViewState": "AgIAAJAAAAAAAAAAAAAuwKcAAABxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-18T09:32:04.364Z"
+              "DocumentIndex": 5,
+              "Title": "OrderServices.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Services\\OrderServices.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Services\\OrderServices.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Services\\OrderServices.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Services\\OrderServices.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAvwEEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-04T02:46:54.605Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T03:17:18.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Order.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Models\\Order.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAnwBkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T00:36:36.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAIwLkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T02:13:58.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "LoginAdmin.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Login\\LoginAdmin.cshtml",
               "ViewState": "AgIAAB0AAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -232,36 +326,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwC4AAABAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "ExcelModel.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\ExcelModel.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\ExcelModel.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\ExcelModel.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Models\\ExcelModel.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T02:13:58.956Z",
+              "WhenOpened": "2024-11-04T04:07:41.353Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ExcelModel.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\ExcelModel.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\ExcelModel.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\ExcelModel.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Models\\ExcelModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T04:07:41.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "ShopeeCartController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
               "ViewState": "AgIAAIoAAAAAAAAAAAAawJEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -269,11 +351,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "OrderStatu.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderStatu.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderStatu.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\OrderStatu.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderStatu.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderStatu.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\OrderStatu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -281,23 +363,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Order.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Models\\Order.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAjwBsAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T00:36:36.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "OrderViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderViewModel.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\OrderViewModel.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderViewModel.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\OrderViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -305,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "OrderDetail.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderDetail.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderDetail.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\OrderDetail.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\OrderDetail.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\OrderDetail.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\OrderDetail.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAuwBYAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -317,11 +387,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "ShopeeModel.Context.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\ShopeeModel.Context.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAhwBsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -329,11 +399,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Report.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminOrder\\Report.cshtml",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAF8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -341,11 +411,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "CartModel.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\CartModel.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\CartModel.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\CartModel.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\CartModel.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\CartModel.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\CartModel.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAArwBMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,11 +423,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "_HeaderLogin.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAGIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -365,11 +435,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\Index.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Login\\Index.cshtml",
               "ViewState": "AgIAAFcAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -377,11 +447,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\App_Start\\RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\App_Start\\RouteConfig.cs",
               "RelativeToolTip": "BaiTapLonWeb\\App_Start\\RouteConfig.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAawCYAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -389,11 +459,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Category.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\Category.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Category.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -401,11 +471,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "HomeModel.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\HomeModel.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\HomeModel.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\HomeModel.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\HomeModel.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\HomeModel.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\HomeModel.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAwA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -413,11 +483,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "chart.js",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\public\\js\\chart.js",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\public\\js\\chart.js",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\public\\js\\chart.js",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\public\\js\\chart.js",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\public\\js\\chart.js",
               "RelativeToolTip": "BaiTapLonWeb\\public\\js\\chart.js",
               "ViewState": "AgIAACkAAAAAAAAAAAAqwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -425,11 +495,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_Sidebar.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAACsAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -437,11 +507,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Test.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Test.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Test.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Models\\Test.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Models\\Test.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Models\\Test.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Models\\Test.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -449,11 +519,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminOrder\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -461,11 +531,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Web.config",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Web.config",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Web.config",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Web.config",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Web.config",
               "RelativeToolTip": "BaiTapLonWeb\\Web.config",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAD4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -474,23 +544,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "ViewState": "AgIAAHMAAAAAAAAAAIAwwH0AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T09:57:01.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\Login\\Edit.cshtml",
               "ViewState": "AgIAAGoAAAAAAAAAAAAawHoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -498,11 +556,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminProduct\\Index.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAEBlwA0AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -510,11 +568,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "BaiTapLonWeb\\Controllers\\ProductsController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAswBcAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -522,11 +580,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "hover.js",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\public\\js\\hover.js",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\public\\js\\hover.js",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\public\\js\\hover.js",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\public\\js\\hover.js",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\public\\js\\hover.js",
               "RelativeToolTip": "BaiTapLonWeb\\public\\js\\hover.js",
               "ViewState": "AgIAAAEAAAAAAAAAAIAwwAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -534,11 +592,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminOrder\\Details.cshtml",
               "ViewState": "AgIAADcAAAAAAAAAAEBVwEUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -546,11 +604,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "BagCart.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\ShopeeCart\\BagCart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -558,11 +616,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
               "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\BaiTapLonWeb\\BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Downloads\\nhom 13_123\\Nhom13_SanTMDT\\FileCode\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
               "RelativeToolTip": "BaiTapLonWeb\\Views\\AdminProduct\\Edit.cshtml",
               "ViewState": "AgIAAAIAAAAAAAAAAMBdwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

@@ -58,11 +58,11 @@
                             @Html.TextBoxFor(model => model.ImageUser, null, new { type = "file", @class = "form-control" })
                             @Html.ValidationMessageFor(model => model.ImageUser, "", new { @class = "text-danger" })
                         </div>
-                        <div class="form-group">
+                        @*<div class="form-group">
                             <label for="permission">Quyền</label>
                             @Html.EditorFor(model => model.Role)
                             @Html.ValidationMessageFor(model => model.Role, "", new { @class = "text-danger" })
-                        </div>
+                        </div>*@
                         <div class="form-group">
                             <div class="col-md-offset-2 col-md-10">
                                 <input type="submit" value="Create" class="btn btn-primary" />

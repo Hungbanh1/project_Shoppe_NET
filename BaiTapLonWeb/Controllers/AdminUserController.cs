@@ -21,7 +21,9 @@ namespace BaiTapLonWeb.Controllers
 
         public ActionResult Index()
         {
-            return View(db.Users.ToList());
+            //return View(db.Users.ToList());
+
+            return View(db.Users.Where(user => user.Role == true));
         }
 
         // GET: AdminUser/Details/5
@@ -73,6 +75,7 @@ namespace BaiTapLonWeb.Controllers
                         ImageUser.SaveAs(_path);
                         users.ImageUser = _FileName;
                     }
+                    users.Role = true;
                     db.Users.Add(users);
                     db.SaveChanges();
                     return RedirectToAction("Index", "AdminUser");

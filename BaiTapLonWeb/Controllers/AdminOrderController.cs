@@ -134,14 +134,24 @@ namespace BaiTapLonWeb.Controllers
 
             var wb = new XLWorkbook();
 
-            var ws = wb.Worksheets.Add("OrderDetail");
+            var ws = wb.Worksheets.Add("Danh sách report");
 
             var OrderServices = new OrderServices();
             ws.Cell("A1").Value = "Mã đơn hàng";
             ws.Cell("B1").Value = "Tên khách hàng";
             ws.Cell("C1").Value = "Tên sản phẩm";
-            ws.Cell("D1").Value = "Số lượng";
-            ws.Cell("E1").Value = "Giá trị";
+            ws.Cell("D1").Value = "Giá";
+            ws.Cell("E1").Value = "Số lượng";
+            ws.Cell("F1").Value = "Tổng tiền";
+            ws.Cell("G1").Value = "Thời gian đặt hàng";
+
+            ws.Column("A").Width = 20;
+            ws.Column("B").Width = 25;
+            ws.Column("C").Width = 30;
+            ws.Column("D").Width = 20;
+            ws.Column("E").Width = 20;
+            ws.Column("F").Width = 20;
+            ws.Column("G").Width = 20;
 
 
             var ls = OrderServices.GetAllOrderForExcel();
@@ -153,8 +163,12 @@ namespace BaiTapLonWeb.Controllers
                 ws.Cell("A" + row).Value = ls[i].CodeOrder;
                 ws.Cell("B" + row).Value = ls[i].UserName;
                 ws.Cell("C" + row).Value = ls[i].ProductName;
-                ws.Cell("D" + row).Value = ls[i].Amount;
-                ws.Cell("E" + row).Value = ls[i].Price;
+                ws.Cell("D" + row).Value = ls[i].Price;
+                ws.Cell("D" + row).Style.NumberFormat.Format = "#,##0\" VNĐ\"";
+                ws.Cell("E" + row).Value = ls[i].Amount;
+                ws.Cell("F" + row).Value = ls[i].TotalMoney;
+                ws.Cell("F" + row).Style.NumberFormat.Format = "#,##0\" VNĐ\"";
+                ws.Cell("G" + row).Value = ls[i].DateOrder; // Gán giá trị DateTime
                 row++;
 
             }
@@ -178,7 +192,8 @@ namespace BaiTapLonWeb.Controllers
             ws.Cell("C1").Value = "Tên sản phẩm";
             ws.Cell("D1").Value = "Giá";
             ws.Cell("E1").Value = "Số lượng";
-            ws.Cell("F1").Value = "Thời gian đặt hàng";
+            ws.Cell("F1").Value = "Tổng tiền";
+            ws.Cell("G1").Value = "Thời gian đặt hàng";
 
             ws.Column("A").Width = 20; 
             ws.Column("B").Width = 25; 
@@ -186,6 +201,7 @@ namespace BaiTapLonWeb.Controllers
             ws.Column("D").Width = 20; 
             ws.Column("E").Width = 20;
             ws.Column("F").Width = 20;
+            ws.Column("G").Width = 20;
 
 
             var ls = OrderServices.GetOrderDetailForExcel(orderId);
@@ -199,10 +215,12 @@ namespace BaiTapLonWeb.Controllers
                 ws.Cell("B" + row).Value = ls[i].UserName;
                 ws.Cell("C" + row).Value = ls[i].ProductName;
                 ws.Cell("D" + row).Value = ls[i].Price;
+                ws.Cell("D" + row).Style.NumberFormat.Format = "#,##0\" VNĐ\"";
                 ws.Cell("E" + row).Value = ls[i].Amount;
-                ws.Cell("F" + row).Value = ls[i].DateOrder; // Gán giá trị DateTime
+                ws.Cell("F" + row).Value = ls[i].TotalMoney;
+                ws.Cell("F" + row).Style.NumberFormat.Format = "#,##0\" VNĐ\"";
+                ws.Cell("G" + row).Value = ls[i].DateOrder; // Gán giá trị DateTime
 
-            
 
                 row++;
             }
