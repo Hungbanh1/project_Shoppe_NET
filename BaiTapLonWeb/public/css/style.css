@@ -592,6 +592,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 10px;
+    padding-left:0px;
 }
 .suggest-li {
     margin: 5px 2px 8% 3px;

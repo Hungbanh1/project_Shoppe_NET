@@ -144,11 +144,15 @@
                 <div class="cart-h1">Giỏ hàng</div>
             </div>
 
-
+            <style>
+                .search-cart form{
+                    margin:0px;
+                }
+            </style>
             <div class="search-cart">
                 @using (Html.BeginForm("Search", "Products", FormMethod.Get))
                 {
-                    <form action="" class="form-search-cart">
+                    <form action="" class="form-search-cart ">
 
                         @Html.TextBox("searchTerm", null, new { @class = "form-search-cart", placeholder = "Mã Freeship Đến 25.000Đ" })
                         <button class="search-button-cart

@@ -3,6 +3,7 @@
 @*@model IEnumerable<BaiTapLonWeb.Models.User>*@
 @*@model User*@
 <body>
+
     <div id="wrapper">
         <!-- // Header  -->
         @if (string.IsNullOrEmpty(Session["Email"]?.ToString()))
@@ -47,20 +48,20 @@
             <h1>day la : @item.PhoneNumber</h1>
 
         }*@
-        <p>Tên người dùng:@Model.UserById.UserName</p>
-        <p>Dia chi:@Model.UserById.Address</p>
+        @*<p>Tên người dùng:@Model.UserById.UserName</p>
+        <p>Dia chi:@Model.UserById.Address</p>*@
         <div id="wp-content">
-            <h1>day la : @TempData["Address"] </h1>
+            @*<h1>day la : @TempData["Address"] </h1>
             <h1>@Session["Address"]</h1>
             <h1>@Session["PhoneNumber"]</h1>
-            <h1>ĐAy la role :  @Session["Role"]</h1>
+            <h1>ĐAy la role :  @Session["Role"]</h1>*@
             <!-- Banner  -->
             <div id="full-banner">
                 <div id="banner">
                     <div class="wp-slider">
                         <div class="slider">
                             <img src="../public/images/banner-sp-f.jpg" alt=""
-                                 width="900px" height="240px"
+                                 width="900px   " height="240px"
                                  class="banner-1">
                         </div>
                         <div class="slider-r">
@@ -215,7 +216,7 @@
                         <h1>Danh mục</h1>
                     </div>
                     <div class="wp-cate">
-                        <ul class="ul-suggest">
+                        <ul class="ul-suggest pl-0">
                             @foreach (var item in Model.CategoriesView)
                             {
                                 <li>
@@ -240,14 +241,17 @@
 
             <div id="flash-sale">
                 <div class="list-flash-sale">
-                    <div class="d12-12">
-                        <img src="../public/images/1212.png" class="pdl-34"
-                             alt="">
-                    </div>
-                    <div class="banner-flash-sale">
-                        <img src="../public/images/flashsale.png" alt="">
-                    </div>
+                   
                     <div class="heading-flash-sale">
+                        <div class="banner-header-flash-sale">
+                            <div class="d12-12">
+                                <img src="../public/images/1212.png" class="pdl-34"
+                                     alt="">
+                            </div>
+                            <div class="banner-flash-sale text-left">
+                                <img src="../public/images/flashsale.png" alt="">
+                            </div>
+                        </div>
                         <h1 class="h1-flash-sale">Ngày hội ưu đãi</h1>
                     </div>
                     <div class="owl-carousel owl-theme wp-flash-sale">
@@ -301,17 +305,18 @@
             </script>
             <div id="suggest">
                 <div class="list-suggest">
-                    <div class="d12-12-product-suggest">
-                        <img src="../public/images/1212.png" class="mr-105"
-                             alt="">
-                    </div>
+                  
 
                     <div class="heading-suggest">
+                        <div class="d12-12-product-suggest mr-top-17px">
+                            <img src="../public/images/1212.png" class="mr-105"
+                                 alt="">
+                        </div>
                         <h1 class="h1-heading-suggest">Gợi ý hôm nay</h1>
                     </div>
 
                     <div class="wp-suggest">
-                        <ul class="ul-suggest">
+                        <ul class="ul-suggest pl-0">
 
                             @{
                                 int count = 0;
@@ -322,7 +327,7 @@
                                         if (count < 18)
                                         {
                                             /*Lặp qua sản phẩm và thực hiện các hành động mong muốn*/
-                                            <li class="suggest-li">
+                                            <li class="suggest-li" >
                                                 <a href="/Chi-Tiet-San-Pham/@item.ProductID">
                                                     <div class="product-suggest">
 
