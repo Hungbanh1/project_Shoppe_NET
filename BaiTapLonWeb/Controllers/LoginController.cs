@@ -34,7 +34,7 @@ namespace BaiTapLonWeb.Controllers
 
                 return View("LoginAdmin", user);
             }
-            else if (check.Role == false || check == null)
+            else if (check == null || check.Role == false )
             {
                 ModelState.AddModelError("PassWord", "Tài khoản và mật khẩu không hợp lệ vui lòng liên hệ với admin");
                 return View("LoginAdmin", user);
@@ -72,7 +72,7 @@ namespace BaiTapLonWeb.Controllers
                 return View("Index", user);
                 //return View();
             }
-            else if (check.Role == true || check == null)
+            else if (check == null || check.Role == true )
             {
                 ModelState.AddModelError("PassWord", "Tài khoản hoặc mật khẩu không hợp lệ");
                 return View("Index", user);

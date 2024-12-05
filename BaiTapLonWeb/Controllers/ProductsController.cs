@@ -26,11 +26,12 @@ namespace BaiTapLonWeb.Controllers
             var categories = db.Categories.Include(p => p.Products);
             var UserById = db.Users.Find(userId);
 
-            if (UserById == null)
-            {
-                // Xử lý khi không tìm thấy người dùng, ví dụ gán giá trị mặc định hoặc thông báo lỗi
-                return HttpNotFound("User không tồn tại");
-            }
+            //if (UserById == null)
+            //{
+            //    // Xử lý khi không tìm thấy người dùng, ví dụ gán giá trị mặc định hoặc thông báo lỗi
+            //    //return HttpNotFound("User không tồn tại");
+            //    return View();
+            //}
 
             HomeModel home = new HomeModel
             {

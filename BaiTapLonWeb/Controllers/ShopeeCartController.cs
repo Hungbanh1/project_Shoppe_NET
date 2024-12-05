@@ -123,16 +123,17 @@ namespace BaiTapLonWeb.Controllers
                 CartModel cart = (CartModel)Session["CartModel"];
                 if (cart != null)
                 {
-                    if (UserById.Address == null || UserById.PhoneNumber == null)
-                    {
-                        TempData["AddressorPhoneNull"] = "Bạn cần cập nhật địa chỉ và số điện thoại trước khi đặt hàng";
-                        return RedirectToAction("ShowToCart", "ShopeeCart");
-                    }
                     if (Session["UserID"] == null)
                     {
                         TempData["FailMessage"] = "Bạn Cần Đăng Nhập Trước khi Đặt Hàng";
                         return RedirectToAction("ShowToCart", "ShopeeCart");
                     }
+                    if (UserById.Address == null || UserById.PhoneNumber == null)
+                    {
+                        TempData["AddressorPhoneNull"] = "Bạn cần cập nhật địa chỉ và số điện thoại trước khi đặt hàng";
+                        return RedirectToAction("ShowToCart", "ShopeeCart");
+                    }
+                   
                     else { 
                         int id = (int)Session["UserID"];
                         Order order = new Order();
