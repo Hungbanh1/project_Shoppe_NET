@@ -1,17 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\",
+  "WorkspaceRootPath": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\desktop\\new folder\\project_shoppe_net\\baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\desktop\\project_shoppe_net\\baitaplonweb\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\views\\shared\\_headerproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_headerproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\views\\shared\\_headerregis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_headerregis.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\products\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\views\\shared\\_headerlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\shopeecartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\desktop\\new folder\\project_shoppe_net\\baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|c:\\users\\hlmth\\desktop\\new folder\\project_shoppe_net\\baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EB98FC97-5A59-4BB2-9493-CAD00D1F7EC3}|BaiTapLonWeb\\BaiTapLonWeb.csproj|solutionrelative:baitaplonweb\\controllers\\adminusercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,34 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T02:33:22.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdminUserController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAA5wD4AAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T02:33:05.386Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -69,15 +67,112 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShopeeCartController.cs",
-              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
-              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
-              "ToolTip": "C:\\Users\\hlmth\\Desktop\\New folder\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
-              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAhwJwAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T02:30:26.862Z",
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:43:11.662Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_HeaderRegis.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderRegis.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_HeaderRegis.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderRegis.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_HeaderRegis.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:43:06.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_HeaderProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderProduct.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_HeaderProduct.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderProduct.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_HeaderProduct.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:41:50.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_HeaderLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\Shared\\_HeaderLogin.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:41:44.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "RelativeToolTip": "BaiTapLonWeb\\Views\\Products\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T01:36:46.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Web.config",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Web.config",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Web.config",
+              "RelativeToolTip": "BaiTapLonWeb\\Web.config",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-07T01:36:30.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:33:22.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminUserController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\AdminUserController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAA5wD4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:33:05.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopeeCartController.cs",
+              "DocumentMoniker": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "RelativeDocumentMoniker": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "ToolTip": "C:\\Users\\hlmth\\Desktop\\project_Shoppe_NET\\BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "RelativeToolTip": "BaiTapLonWeb\\Controllers\\ShopeeCartController.cs",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAhwJwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:30:26.862Z"
             }
           ]
         }
