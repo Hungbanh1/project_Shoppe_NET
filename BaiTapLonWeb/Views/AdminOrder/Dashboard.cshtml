@@ -11,7 +11,7 @@
                     <div class="card text-white bg-warning mb-3" style="max-width: 18rem;">
                         <div class="card-header">ĐANG XỬ LÝ</div>
                         <div class="card-body">
-                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Ðang xử lý")</h5>
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Đang xử lý")</h5>
                             <p class="card-text">Số lượng đơn hàng đang xử lý</p>
                         </div>
                     </div>
@@ -20,7 +20,7 @@
                     <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
                         <div class="card-header">ĐANG VẬN CHUYỂN</div>
                         <div class="card-body">
-                            <h5 class="card-title" name="Đang vận chuyển">@Model.Count(o => o.OrderStatu.StatusName == "Ðang vận chuyển")</h5>
+                            <h5 class="card-title" name="Đang vận chuyển">@Model.Count(o => o.OrderStatu.StatusName == "Đang vận chuyển")</h5>
                             <p class="card-text">Số đơn đang vận chuyển trong hệ thống</p>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
                         <div class="card-header">ĐƠN HÀNG HỦY</div>
                         <div class="card-body">
-                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Hủy đơn")</h5>
+                            <h5 class="card-title">@Model.Count(o => o.OrderStatu.StatusName == "Huỷ đơn")</h5>
                             <p class="card-text">Số đơn bị hủy trong hệ thống</p>
                         </div>
                     </div>
@@ -150,11 +150,11 @@ else
                                             <td> @total.ToString("#,##0").Replace(',', '.') VNĐ</td>
                                         }
                                         <td>
-                                            @if (@item.OrderStatu.StatusName == "Ðang vận chuyển")
+                                            @if (@item.OrderStatu.StatusName == "Đang vận chuyển")
                                             {
                                                 <span class="badge badge-primary">@item.OrderStatu.StatusName</span>
                                             }
-                                            else if (@item.OrderStatu.StatusName == "Ðang xử lý")
+                                            else if (@item.OrderStatu.StatusName == "Đang xử lý")
                                             {
                                                 <span class="badge badge-warning">@item.OrderStatu.StatusName</span>
                                             }

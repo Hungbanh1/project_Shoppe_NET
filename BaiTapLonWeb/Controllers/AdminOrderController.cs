@@ -23,10 +23,10 @@ namespace BaiTapLonWeb.Controllers
 
             // Bắt đầu với các đơn hàng của người dùng có Role là false
             var orders = db.Orders.Where(order => order.User.Role == false);
-            var processingCount = orders.Count(o => o.OrderStatu.StatusName == "Ðang xử lý");
-            var deliveringCount = orders.Count(o => o.OrderStatu.StatusName == "Ðang vận chuyển");
+            var processingCount = orders.Count(o => o.OrderStatu.StatusName == "Đang xử lý");
+            var deliveringCount = orders.Count(o => o.OrderStatu.StatusName == "Đang vận chuyển");
             var successCount = orders.Count(o => o.OrderStatu.StatusName == "Thành công");
-            var cancelledCount = orders.Count(o => o.OrderStatu.StatusName == "Đã hủy");
+            var cancelledCount = orders.Count(o => o.OrderStatu.StatusName == "Đã huỷ");
             var totalCount = orders.Count();
             // Kiểm tra trạng thái và lọc theo trạng thái nếu cần
             if (!string.IsNullOrEmpty(status) && status != "all")

@@ -305,6 +305,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AdminOrderController.cs" />
+    <Compile Include="Controllers\AdminCategoryController.cs" />
     <Compile Include="Controllers\AdminProductController.cs" />
     <Compile Include="Controllers\AdminUserController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
@@ -2406,6 +2407,11 @@
     <Content Include="Views\AdminOrder\Dashboard.cshtml" />
     <Content Include="Views\AdminOrder\Statics.cshtml" />
     <Content Include="Views\AdminOrder\Report.cshtml" />
+    <Content Include="Views\AdminCategory\Create.cshtml" />
+    <Content Include="Views\AdminCategory\Delete.cshtml" />
+    <Content Include="Views\AdminCategory\Details.cshtml" />
+    <Content Include="Views\AdminCategory\Edit.cshtml" />
+    <Content Include="Views\AdminCategory\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

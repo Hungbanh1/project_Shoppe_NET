@@ -1,0 +1,49 @@
+﻿@model BaiTapLonWeb.Models.Category
+<body>
+    @Html.Partial("_HeaderAdmin")
+    <div id="wp-content">
+       
+        <div id="content" class="container-fluid">
+            <div class="card">
+                <div class="card-header font-weight-bold">
+                    Bạn Có Muốn Xóa Danh Mục Này Không
+                </div>
+                <div class="card-body">
+                    <form action="">
+
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="form-group">
+                                    <label for="product_name">
+                                        @Html.LabelFor(model => model.CategoryName, "Tên danh mục : ")
+                                    </label>
+
+                                    @Html.DisplayFor(model => model.CategoryName)
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="product_thumb">
+                                        @Html.LabelFor(model => model.CategoryImage, "Ảnh danh mục : ")
+                                    </label>
+                                    <img src="~/public/images/@Model.CategoryImage" style="width:80px; height:80px" />
+
+                                </div>
+                            </div>
+
+                        </div
+
+                    </form>
+                </div>
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+                    <div class="form-actions no-color">
+                        <input type="submit" value="Delete" class="btn btn-danger" /> |
+                        @Html.ActionLink("Back to List", "Index")
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</body>
+

@@ -13,8 +13,8 @@
                 <div class="card-body">
                     
                     <div class="analytic">
-                        <a href="?status=Ðang xử lý" class="text-primary">Đang Xử Lý<span class="text-muted"> (@ViewBag.ProcessingCount)</span></a>
-                        <a href="?status=Ðang vận chuyển" class="text-primary">Đang Giao<span class="text-muted">(@ViewBag.DeliveringCount) </span></a>
+                        <a href="?status=Đang xử lý" class="text-primary">Đang Xử Lý<span class="text-muted"> (@ViewBag.ProcessingCount)</span></a>
+                        <a href="?status=Đang vận chuyển" class="text-primary">Đang Vận Chuyển<span class="text-muted">(@ViewBag.DeliveringCount) </span></a>
                         <a href="?status=Thành công" class="text-primary">Thành Công<span class="text-muted">(@ViewBag.SuccessCount) </span></a>
                         <a href="?status=Hủy đơn" class="text-primary">Đã Hủy<span class="text-muted">(@ViewBag.CancelledCount) </span></a>
                         <a href="?status=all" class="text-primary">Xem Tất Cả<span class="text-muted">(@ViewBag.TotalCount)</span></a>
@@ -59,11 +59,11 @@
 
                                             }
                                             <td>
-                                                @if (@item.OrderStatu.StatusName == "Ðang vận chuyển")
+                                                @if (@item.OrderStatu.StatusName == "Đang vận chuyển")
                                                 {
                                                     <span class="badge badge-primary">@item.OrderStatu.StatusName</span>
                                                 }
-                                                else if (@item.OrderStatu.StatusName == "Ðang xử lý")
+                                                else if (@item.OrderStatu.StatusName == "Đang xử lý")
                                                 {
                                                     <span class="badge badge-warning">@item.OrderStatu.StatusName</span>
                                                 }

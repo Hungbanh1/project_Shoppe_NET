@@ -32,7 +32,20 @@
             </a>
             <i class="arrow fas fa-angle-right"></i>
         </li>
+        <li class="nav-link">
+            <a href="@Url.Action("Index","AdminCategory")">
+                <div class="nav-link-icon d-inline-flex">
+                    <i class="fa-solid fa-list"></i>
+                </div>
+                Danh Mục
+            </a>
+            <i class="arrow fas fa-angle-right"></i>
+            <ul class="sub-menu">
+                <li><a href="@Url.Action("Create","AdminCategory")">Thêm mới</a></li>
+                <li><a href="@Url.Action("Index","AdminCategory")">Danh sách</a></li>
 
+            </ul>
+        </li>
         <li class="nav-link">
 
             <a href="@Url.Action("Index","AdminProduct")">
